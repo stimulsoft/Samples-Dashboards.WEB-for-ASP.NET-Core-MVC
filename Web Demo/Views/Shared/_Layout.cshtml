@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Web Demo</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <table class="main" cellpadding="0" cellspacing="0" border="0" style="color:@ViewBag.ForeHtmlColor; background:@ViewBag.BackHtmlColor;">
+        <tr>
+            <td class="menu">
+                <h3>Dashboards Demo</h3>
+                <div class="separator"></div>
+                <div class="main">
+                    @if (@ViewBag.FileNames != null)
+                    {
+                        @foreach (string fileName in @ViewBag.FileNames)
+                        {
+                            var currentFileName = ViewContext.RouteData.Values["id"].ToString();
+                            @Html.ActionLink(fileName.Substring(9), "Dashboards", "View", new { id = fileName }, new { @class = currentFileName == fileName ? "current" : "", @style = "color:" + @ViewBag.ForeHtmlColor })
+                        }
+                    }
+                </div>
+            </td>
+            <td class="line" rowspan="2">
+                <div class="line"></div>
+            </td>
+            <td class="viewer" rowspan="2">
+                @RenderBody()
+            </td>
+        </tr>
+        <tr>
+            <td class="link">
+                <div class="separator"></div>
+                <a href="https://www.stimulsoft.com/" target="_blank" style="color:@ViewBag.ForeHtmlColor;">www.stimulsoft.com</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

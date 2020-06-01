@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Demo", "Web Demo\Web Demo.csproj", "{FADF2B95-4BC6-44F2-B375-F314907B9C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web Demo", "Web Demo\Web Demo.csproj", "{FADF2B95-4BC6-44F2-B375-F314907B9C63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Show Dashboard in the Viewer", "Show Dashboard in the Viewer\Show Dashboard in the Viewer.csproj", "{7DDB44DB-540F-4A57-81A0-52A1569F1B18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Show Dashboard in the Viewer", "Show Dashboard in the Viewer\Show Dashboard in the Viewer.csproj", "{7DDB44DB-540F-4A57-81A0-52A1569F1B18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runtime Dashboard Creation", "Runtime Dashboard Creation\Runtime Dashboard Creation.csproj", "{FEB896CA-5908-4166-A75F-4F5C99DA7E59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Runtime Dashboard Creation", "Runtime Dashboard Creation\Runtime Dashboard Creation.csproj", "{FEB896CA-5908-4166-A75F-4F5C99DA7E59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Register Data for Dashboard Template", "Register Data for Dashboard Template\Register Data for Dashboard Template.csproj", "{7B1F63CA-4A89-40EF-B203-F1A637A0A297}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Register Data for Dashboard Template", "Register Data for Dashboard Template\Register Data for Dashboard Template.csproj", "{7B1F63CA-4A89-40EF-B203-F1A637A0A297}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Export and Print Dashboard from Code", "Export and Print Dashboard from Code\Export and Print Dashboard from Code.csproj", "{700542C3-1829-441E-A2D1-8DC75663EE41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Export and Print Dashboard from Code", "Export and Print Dashboard from Code\Export and Print Dashboard from Code.csproj", "{700542C3-1829-441E-A2D1-8DC75663EE41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edit Dashboard in the Designer", "Edit Dashboard in the Designer\Edit Dashboard in the Designer.csproj", "{F3457E10-48C4-43C9-B31A-A7764C78614E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edit Dashboard in the Designer", "Edit Dashboard in the Designer\Edit Dashboard in the Designer.csproj", "{F3457E10-48C4-43C9-B31A-A7764C78614E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working with Dashboards in macOS", "Working with Dashboards in macOS\Working with Dashboards in macOS.csproj", "{C6AEA739-0673-4831-8B19-0C2CA8F21795}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{F3457E10-48C4-43C9-B31A-A7764C78614E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3457E10-48C4-43C9-B31A-A7764C78614E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3457E10-48C4-43C9-B31A-A7764C78614E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6AEA739-0673-4831-8B19-0C2CA8F21795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6AEA739-0673-4831-8B19-0C2CA8F21795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6AEA739-0673-4831-8B19-0C2CA8F21795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6AEA739-0673-4831-8B19-0C2CA8F21795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

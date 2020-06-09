@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Using_the_Dashboard_Theme_on_the_Website</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Stimulsoft.Dashboards.Web.NetCore" Version="2020.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dashboards\" />
+  </ItemGroup>
+
+</Project>

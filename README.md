@@ -4,6 +4,7 @@
 
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
+* Add Custom Function to the Designer
 * Edit Dashboard in the Designer
 * Export and Print Dashboard from Code
 * Register Data for Dashboard Template

@@ -59,6 +59,7 @@
       <BackColor>Transparent</BackColor>
       <Components isList="true" count="16">
         <RegionMap1 Ref="5" type="Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>360,300,500,300</ClientRectangle>
           <CustomStyleName>Map_of_World</CustomStyleName>
@@ -70,8 +71,7 @@
             <Key>42de23c6f7284fc3a371d6965a787634</Key>
             <Label>Country</Label>
           </KeyMeter>
-          <Layout Ref="7" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
-          <MapID>World</MapID>
+          <MapIdent>World</MapIdent>
           <Margin>3,3,3,3</Margin>
           <Name>RegionMap1</Name>
           <Padding>5,5,5,5</Padding>
@@ -79,7 +79,7 @@
           <Parent isRef="4" />
           <ShowName>Short</ShowName>
           <Style>Custom</Style>
-          <Title Ref="8" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="7" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>148, 148, 148</BackColor>
             <Font>Arial,15.75,Bold,Point,False,204</Font>
             <ForeColor>White</ForeColor>
@@ -89,112 +89,123 @@
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <ValueMeter Ref="9" type="Stimulsoft.Dashboard.Components.RegionMap.StiValueMapMeter" isKey="true">
+          <ValueMeter Ref="8" type="Stimulsoft.Dashboard.Components.RegionMap.StiValueMapMeter" isKey="true">
             <Expression>Sum(SiteStatistics.NewUsers)</Expression>
             <Key>72cf095d16d34933b47300eb1117023b</Key>
             <Label>New Users</Label>
           </ValueMeter>
         </RegionMap1>
-        <Chart1 Ref="10" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
-          <Area Ref="11" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
-            <InterlacingHor Ref="12" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+        <Chart1 Ref="9" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <Area Ref="10" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="11" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
               <Color>Transparent</Color>
             </InterlacingHor>
-            <InterlacingVert Ref="13" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+            <InterlacingVert Ref="12" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
               <Color>Transparent</Color>
             </InterlacingVert>
+            <XAxis Ref="13" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxis" isKey="true">
+              <Labels Ref="14" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+                <Color>White</Color>
+                <Font>Arial,8</Font>
+              </Labels>
+              <Range Ref="15" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisRange" isKey="true" />
+              <Title Ref="16" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxisTitle" isKey="true">
+                <Color>White</Color>
+                <Font>Arial,12,Bold</Font>
+                <Visible>False</Visible>
+              </Title>
+            </XAxis>
+            <YAxis Ref="17" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxis" isKey="true">
+              <Labels Ref="18" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+                <Color>White</Color>
+                <Font>Arial,8</Font>
+              </Labels>
+              <Range Ref="19" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisRange" isKey="true" />
+              <Title Ref="20" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxisTitle" isKey="true">
+                <Color>White</Color>
+                <Font>Arial,12,Bold</Font>
+                <Visible>False</Visible>
+              </Title>
+            </YAxis>
           </Area>
           <Arguments isList="true" count="1">
-            <Item6 Ref="14" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item6 Ref="21" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>SiteStatistics.Date</Expression>
               <Key>7577dbc96d6840b48b2db3c4fccba232</Key>
               <Label>Date</Label>
             </Item6>
           </Arguments>
           <BackColor>Transparent</BackColor>
+          <ChartConditions isList="true" count="0" />
           <ClientRectangle>360,0,500,300</ClientRectangle>
           <CloseValues isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
           <CustomStyleName>Users</CustomStyleName>
           <DataFilters isList="true" count="0" />
           <EndValues isList="true" count="0" />
           <Guid>ee28d5ad229244bbabe19f5ec1e61be8</Guid>
           <HighValues isList="true" count="0" />
-          <Labels Ref="15" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+          <Labels Ref="22" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
             <Font>Arial,8</Font>
             <ForeColor>Transparent</ForeColor>
           </Labels>
-          <Layout Ref="16" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
-          <Legend Ref="17" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
-            <Labels Ref="18" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+          <Legend Ref="23" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="24" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
               <Color>White</Color>
               <Font>Arial,8</Font>
             </Labels>
-            <Title Ref="19" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+            <Title Ref="25" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
               <Color>Transparent</Color>
               <Font>Arial,12,Bold</Font>
             </Title>
           </Legend>
           <LowValues isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
+          <Marker Ref="26" type="Stimulsoft.Dashboard.Components.Chart.StiChartMarker" isKey="true" />
           <Name>Chart1</Name>
           <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
+          <ParetoSeriesColors />
           <SeriesColors />
           <Style>Custom</Style>
-          <Title Ref="20" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="27" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>148, 148, 148</BackColor>
             <Font>Arial,15.75,Bold,Point,False,204</Font>
             <ForeColor>White</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>USERS</Text>
           </Title>
-          <TopN Ref="21" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TopN Ref="28" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <ValueFormat Ref="22" type="NumberFormat" isKey="true">
+          <TrendLines isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <ValueFormat Ref="29" type="NumberFormat" isKey="true">
             <DecimalDigits>0</DecimalDigits>
             <GroupSeparator>,</GroupSeparator>
             <NegativePattern>1</NegativePattern>
             <State>DecimalDigits</State>
           </ValueFormat>
           <Values isList="true" count="2">
-            <Item7 Ref="23" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item7 Ref="30" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(SiteStatistics.Users)</Expression>
               <Key>0272d44168f2467ca3b0908c4792f600</Key>
               <Label>Users</Label>
             </Item7>
-            <Item8 Ref="24" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item8 Ref="31" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(SiteStatistics.NewUsers)</Expression>
               <Key>f29b098f243a4abdb41f59fb5d7dbb97</Key>
               <Label>New Users</Label>
             </Item8>
           </Values>
           <Weights isList="true" count="0" />
-          <XAxis Ref="25" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxis" isKey="true">
-            <Labels Ref="26" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
-              <Color>White</Color>
-              <Font>Arial,8</Font>
-            </Labels>
-            <Title Ref="27" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxisTitle" isKey="true">
-              <Color>White</Color>
-              <Font>Arial,12,Bold</Font>
-            </Title>
-          </XAxis>
-          <YAxis Ref="28" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxis" isKey="true">
-            <Labels Ref="29" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
-              <Color>White</Color>
-              <Font>Arial,8</Font>
-            </Labels>
-            <Title Ref="30" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxisTitle" isKey="true">
-              <Color>White</Color>
-              <Font>Arial,12,Bold</Font>
-            </Title>
-          </YAxis>
         </Chart1>
-        <Gauge1 Ref="31" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+        <Gauge1 Ref="32" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>860,400,340,200</ClientRectangle>
           <CustomStyleName>Page_View</CustomStyleName>
@@ -202,7 +213,9 @@
           <Font>Arial,13</Font>
           <ForeColor>Transparent</ForeColor>
           <Guid>5596abd0e4fb410e96573c45c8cb737d</Guid>
-          <Layout Ref="32" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <Labels Ref="33" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeLabels" isKey="true">
+            <Visible>False</Visible>
+          </Labels>
           <Margin>3,3,3,3</Margin>
           <Maximum>100</Maximum>
           <Minimum>0</Minimum>
@@ -212,7 +225,7 @@
           <Parent isRef="4" />
           <Ranges isList="true" count="0" />
           <Style>Custom</Style>
-          <Title Ref="33" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="34" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>148, 148, 148</BackColor>
             <Font>Arial,15.75,Bold,Point,False,204</Font>
             <ForeColor>White</ForeColor>
@@ -223,13 +236,21 @@
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
           <Type>HalfCircular</Type>
-          <Value Ref="34" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <Value Ref="35" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
             <Expression>Sum(SiteStatistics.Pageview)</Expression>
             <Key>43d575fca73d4a479960ce89dcdb1175</Key>
             <Label>Pageview</Label>
           </Value>
+          <ValueFormat Ref="36" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
         </Gauge1>
-        <Indicator1 Ref="35" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+        <Indicator1 Ref="37" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>860,200,340,200</ClientRectangle>
           <CustomStyleName>Returing_Visitors</CustomStyleName>
@@ -239,100 +260,138 @@
           <GlyphColor>Transparent</GlyphColor>
           <Guid>8e30ce4e8fe94229bf448476529c803d</Guid>
           <Icon>ManWoman</Icon>
-          <Layout Ref="36" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
           <Name>Indicator1</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
           <Style>Custom</Style>
-          <TextFormat Ref="37" type="NumberFormat" isKey="true">
+          <TextFormat Ref="38" type="NumberFormat" isKey="true">
             <DecimalDigits>2</DecimalDigits>
             <GroupSeparator>,</GroupSeparator>
             <NegativePattern>1</NegativePattern>
             <State>DecimalDigits, Abbreviation</State>
           </TextFormat>
-          <Title Ref="38" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="39" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>148, 148, 148</BackColor>
             <Font>Arial,15.75,Bold,Point,False,204</Font>
             <ForeColor>White</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>RETURING USERS</Text>
           </Title>
-          <TopN Ref="39" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TopN Ref="40" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="40" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <Value Ref="41" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
             <Expression>Sum(SiteStatistics.ReturningVisitors)</Expression>
             <Key>105520a656244738a936a682ad9799f5</Key>
             <Label>Returning Visitors</Label>
           </Value>
         </Indicator1>
-        <Chart2 Ref="41" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
-          <Area Ref="42" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
-            <InterlacingHor Ref="43" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+        <Chart2 Ref="42" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <Area Ref="43" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="44" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
               <Color>Transparent</Color>
             </InterlacingHor>
-            <InterlacingVert Ref="44" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+            <InterlacingVert Ref="45" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
               <Color>Transparent</Color>
             </InterlacingVert>
+            <XAxis Ref="46" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxis" isKey="true">
+              <Labels Ref="47" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+                <Color>Transparent</Color>
+                <Font>Arial,8</Font>
+              </Labels>
+              <Range Ref="48" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisRange" isKey="true" />
+              <Title Ref="49" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxisTitle" isKey="true">
+                <Color>White</Color>
+                <Font>Arial,12,Bold</Font>
+                <Visible>False</Visible>
+              </Title>
+            </XAxis>
+            <YAxis Ref="50" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxis" isKey="true">
+              <Labels Ref="51" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+                <Color>Transparent</Color>
+                <Font>Arial,8</Font>
+              </Labels>
+              <Range Ref="52" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisRange" isKey="true" />
+              <Title Ref="53" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxisTitle" isKey="true">
+                <Color>Transparent</Color>
+                <Font>Arial,12,Bold</Font>
+                <Visible>False</Visible>
+              </Title>
+            </YAxis>
           </Area>
-          <ArgumentFormat Ref="45" type="DateFormat" isKey="true">
+          <ArgumentFormat Ref="54" type="DateFormat" isKey="true">
             <StringFormat>M.dd</StringFormat>
           </ArgumentFormat>
           <Arguments isList="true" count="1">
-            <Item12 Ref="46" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item12 Ref="55" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>SiteStatistics.Date</Expression>
               <Key>03c0e20697d34bdb82bfa97d63775f80</Key>
               <Label>Date</Label>
             </Item12>
           </Arguments>
           <BackColor>Transparent</BackColor>
+          <ChartConditions isList="true" count="0" />
           <ClientRectangle>860,0,340,200</ClientRectangle>
           <CloseValues isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
           <CustomStyleName>Sessions</CustomStyleName>
           <DataFilters isList="true" count="0" />
           <EndValues isList="true" count="0" />
           <Guid>5d2082b76ac141679600fb1dfbe0b72a</Guid>
           <HighValues isList="true" count="0" />
-          <Labels Ref="47" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+          <Labels Ref="56" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
             <Font>Arial,8</Font>
             <ForeColor>Transparent</ForeColor>
           </Labels>
-          <Layout Ref="48" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
-          <Legend Ref="49" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
-            <Labels Ref="50" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+          <Legend Ref="57" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="58" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
               <Color>Transparent</Color>
               <Font>Arial,8</Font>
             </Labels>
-            <Title Ref="51" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+            <Title Ref="59" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
               <Color>Transparent</Color>
               <Font>Arial,12,Bold</Font>
             </Title>
           </Legend>
           <LowValues isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
+          <Marker Ref="60" type="Stimulsoft.Dashboard.Components.Chart.StiChartMarker" isKey="true" />
           <Name>Chart2</Name>
           <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
+          <ParetoSeriesColors />
           <SeriesColors />
           <Style>Custom</Style>
-          <Title Ref="52" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="61" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>148, 148, 148</BackColor>
             <Font>Arial,15.75,Bold,Point,False,204</Font>
             <ForeColor>White</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>AVERAGE SESSION DURATION</Text>
           </Title>
-          <TopN Ref="53" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TopN Ref="62" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
+          <TrendLines isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <ValueFormat Ref="63" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
           <Values isList="true" count="1">
-            <Item13 Ref="54" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item13 Ref="64" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum([SiteStatistics.Avg.SessionDuration])</Expression>
               <Key>aa540105b18a4725b49f1bbc99f56343</Key>
               <Label>Avg. Session Duration</Label>
@@ -340,19 +399,9 @@
             </Item13>
           </Values>
           <Weights isList="true" count="0" />
-          <XAxis Ref="55" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxis" isKey="true">
-            <Labels Ref="56" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
-              <Color>Transparent</Color>
-              <Font>Arial,8</Font>
-            </Labels>
-            <Title Ref="57" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxisTitle" isKey="true">
-              <Color>White</Color>
-              <Font>Arial,12,Bold</Font>
-              <Visible>False</Visible>
-            </Title>
-          </XAxis>
         </Chart2>
-        <Progress1 Ref="58" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
+        <Progress1 Ref="65" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,200,360,200</ClientRectangle>
           <CustomStyleName>New_Users</CustomStyleName>
@@ -360,42 +409,43 @@
           <Font>Arial,13</Font>
           <ForeColor>Transparent</ForeColor>
           <Guid>8fb6a5332d064d29ab7ebdcf7879472d</Guid>
-          <Layout Ref="59" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>Progress1</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
-          <Series Ref="60" type="Stimulsoft.Dashboard.Components.Progress.StiSeriesProgressMeter" isKey="true">
+          <Series Ref="66" type="Stimulsoft.Dashboard.Components.Progress.StiSeriesProgressMeter" isKey="true">
             <Expression>SiteStatistics.Month</Expression>
             <Key>54527401e27f4a5ab50ab62dc5b54b32</Key>
             <Label>Month</Label>
           </Series>
           <SeriesColors />
           <Style>Custom</Style>
-          <Target Ref="61" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
+          <Target Ref="67" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
             <Expression>Sum(SiteStatistics.Users)</Expression>
             <Key>f8ef5ebf583d493d85abc6dccbee6df8</Key>
             <Label>Users</Label>
           </Target>
-          <Title Ref="62" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="68" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>148, 148, 148</BackColor>
             <Font>Arial,15.75,Bold,Point,False,204</Font>
             <ForeColor>White</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>GROWTH USERS</Text>
           </Title>
-          <TopN Ref="63" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TopN Ref="69" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="64" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <Value Ref="70" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
             <Expression>Sum(SiteStatistics.NewUsers)</Expression>
             <Key>a53ad12dd1df414ba9f78c8ca46b5812</Key>
             <Label>New Users</Label>
           </Value>
         </Progress1>
-        <Indicator2 Ref="65" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+        <Indicator2 Ref="71" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,0,120,200</ClientRectangle>
           <CustomStyleName>Social</CustomStyleName>
@@ -405,37 +455,40 @@
           <GlyphColor>231, 76, 60</GlyphColor>
           <Guid>5a25e90bace146959b33f1c42366d586</Guid>
           <Icon>CircleCheck</Icon>
-          <Layout Ref="66" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
           <Name>Indicator2</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
           <Style>Custom</Style>
-          <TextFormat Ref="67" type="NumberFormat" isKey="true">
+          <TextFormat Ref="72" type="NumberFormat" isKey="true">
             <DecimalDigits>0</DecimalDigits>
             <GroupSeparator>,</GroupSeparator>
             <NegativePattern>1</NegativePattern>
             <State>DecimalDigits, Abbreviation</State>
           </TextFormat>
-          <Title Ref="68" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="73" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>148, 148, 148</BackColor>
             <Font>Arial,15.75,Bold,Point,False,204</Font>
             <ForeColor>White</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>YOUTUBE</Text>
           </Title>
-          <TopN Ref="69" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TopN Ref="74" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="70" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <Value Ref="75" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
             <Expression>Sum(SiteStatistics.Subscribers)</Expression>
             <Key>d326ea1d9df4445c84886dbdd08d9463</Key>
             <Label>Subscribers</Label>
           </Value>
         </Indicator2>
-        <Indicator3 Ref="71" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+        <Indicator3 Ref="76" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>120,0,120,200</ClientRectangle>
           <CustomStyleName>Social</CustomStyleName>
@@ -445,37 +498,40 @@
           <GlyphColor>80, 101, 161</GlyphColor>
           <Guid>0184c4818de946e4ad8045f5beb35d7a</Guid>
           <Icon>Earth</Icon>
-          <Layout Ref="72" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
           <Name>Indicator3</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
           <Style>Custom</Style>
-          <TextFormat Ref="73" type="NumberFormat" isKey="true">
+          <TextFormat Ref="77" type="NumberFormat" isKey="true">
             <DecimalDigits>0</DecimalDigits>
             <GroupSeparator>,</GroupSeparator>
             <NegativePattern>1</NegativePattern>
             <State>DecimalDigits, Abbreviation</State>
           </TextFormat>
-          <Title Ref="74" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="78" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>148, 148, 148</BackColor>
             <Font>Arial,15.75,Bold,Point,False,204</Font>
             <ForeColor>White</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>FACEBOOK</Text>
           </Title>
-          <TopN Ref="75" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TopN Ref="79" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="76" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <Value Ref="80" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
             <Expression>Sum(SiteStatistics.Likes)</Expression>
             <Key>1d69479b152d4ecca3d2daeebc3b631a</Key>
             <Label>Likes</Label>
           </Value>
         </Indicator3>
-        <Indicator4 Ref="77" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+        <Indicator4 Ref="81" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>240,0,120,200</ClientRectangle>
           <CustomStyleName>Social</CustomStyleName>
@@ -485,47 +541,52 @@
           <GlyphColor>41, 128, 185</GlyphColor>
           <Guid>3f420ac622124f41b3890b7173963969</Guid>
           <Icon>Check</Icon>
-          <Layout Ref="78" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
           <Name>Indicator4</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
           <Style>Custom</Style>
-          <TextFormat Ref="79" type="NumberFormat" isKey="true">
+          <TextFormat Ref="82" type="NumberFormat" isKey="true">
             <DecimalDigits>0</DecimalDigits>
             <GroupSeparator>,</GroupSeparator>
             <NegativePattern>1</NegativePattern>
             <State>DecimalDigits, Abbreviation</State>
           </TextFormat>
-          <Title Ref="80" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="83" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>148, 148, 148</BackColor>
             <Font>Arial,15.75,Bold,Point,False,204</Font>
             <ForeColor>White</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>TWITTER</Text>
           </Title>
-          <TopN Ref="81" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TopN Ref="84" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="82" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <Value Ref="85" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
             <Expression>Sum(SiteStatistics.Followers)</Expression>
             <Key>4e0014a31ed74829abdadb9af62c7fca</Key>
             <Label>Followers</Label>
           </Value>
         </Indicator4>
-        <Image1 Ref="83" type="Stimulsoft.Dashboard.Components.Image.StiImageElement" isKey="true">
+        <Image1 Ref="86" type="Stimulsoft.Dashboard.Components.Image.StiImageElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>42, 42, 42</BackColor>
           <ClientRectangle>0,40,120,40</ClientRectangle>
           <Guid>902791e5fa524a869ac429ebc4646577</Guid>
-          <ImageHyperlink>resource://youtube</ImageHyperlink>
+          <Icon>Youtube</Icon>
+          <IconColor>237, 28, 36</IconColor>
+          <ImageHyperlink />
           <Margin>3,3,3,3</Margin>
           <Name>Image1</Name>
           <Padding>0,0,0,0</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
-          <Title Ref="84" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="87" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -533,17 +594,20 @@
             <Visible>False</Visible>
           </Title>
         </Image1>
-        <Image2 Ref="85" type="Stimulsoft.Dashboard.Components.Image.StiImageElement" isKey="true">
+        <Image2 Ref="88" type="Stimulsoft.Dashboard.Components.Image.StiImageElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>42, 42, 42</BackColor>
           <ClientRectangle>120,40,120,40</ClientRectangle>
           <Guid>8eda75294f8a4c6e835bdce2e0fe8ba1</Guid>
+          <Icon>Facebook</Icon>
+          <IconColor>68, 114, 196</IconColor>
           <ImageHyperlink>resource://facebook</ImageHyperlink>
           <Margin>3,3,3,3</Margin>
           <Name>Image2</Name>
           <Padding>0,0,0,0</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
-          <Title Ref="86" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="89" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -551,17 +615,20 @@
             <Visible>False</Visible>
           </Title>
         </Image2>
-        <Image3 Ref="87" type="Stimulsoft.Dashboard.Components.Image.StiImageElement" isKey="true">
+        <Image3 Ref="90" type="Stimulsoft.Dashboard.Components.Image.StiImageElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>42, 42, 42</BackColor>
           <ClientRectangle>240,40,120,40</ClientRectangle>
           <Guid>e7b6baa340924d26b71715606d72c7fe</Guid>
-          <ImageHyperlink>resource://twitter</ImageHyperlink>
+          <Icon>Twitter</Icon>
+          <IconColor>0, 183, 239</IconColor>
+          <ImageHyperlink />
           <Margin>3,3,3,3</Margin>
           <Name>Image3</Name>
           <Padding>0,0,0,0</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
-          <Title Ref="88" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="91" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -569,7 +636,8 @@
             <Visible>False</Visible>
           </Title>
         </Image3>
-        <Indicator5 Ref="89" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+        <Indicator5 Ref="92" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,400,360,200</ClientRectangle>
           <CustomStyleName>Bounce_Rate</CustomStyleName>
@@ -578,38 +646,41 @@
           <ForeColor>Transparent</ForeColor>
           <GlyphColor>Transparent</GlyphColor>
           <Guid>1dc48503a62440638194de197b8c43cd</Guid>
-          <Layout Ref="90" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
           <Name>Indicator5</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
           <Style>Custom</Style>
-          <TextFormat Ref="91" type="PercentageFormat" isKey="true">
+          <TextFormat Ref="93" type="PercentageFormat" isKey="true">
             <DecimalDigits>2</DecimalDigits>
             <GroupSeparator>,</GroupSeparator>
             <NegativePattern>1</NegativePattern>
             <PositivePattern>1</PositivePattern>
             <Symbol>%</Symbol>
           </TextFormat>
-          <Title Ref="92" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="94" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>148, 148, 148</BackColor>
             <Font>Arial,15.75,Bold,Point,False,204</Font>
             <ForeColor>White</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>BOUNCE RATE</Text>
           </Title>
-          <TopN Ref="93" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TopN Ref="95" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="94" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <Value Ref="96" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
             <Expression>Median(SiteStatistics.BounceRate/100)</Expression>
             <Key>16bf0a35aa5c4c96b1d7d37ab1cfb7f0</Key>
             <Label>Bounce Rate</Label>
           </Value>
         </Indicator5>
-        <Text1 Ref="95" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+        <Text1 Ref="97" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>42, 42, 42</BackColor>
           <ClientRectangle>0,140,120,60</ClientRectangle>
           <ForeColor>Transparent</ForeColor>
@@ -620,7 +691,7 @@
           <Page isRef="4" />
           <Parent isRef="4" />
           <Text>&lt;font face="Arial" size="16"&gt;&lt;text-align="Center"&gt;&lt;b&gt;&lt;font-color="White"&gt;Subscribers&lt;/font-color&gt;&lt;/b&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
-          <Title Ref="96" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="98" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -628,7 +699,8 @@
             <Visible>False</Visible>
           </Title>
         </Text1>
-        <Text2 Ref="97" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+        <Text2 Ref="99" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>42, 42, 42</BackColor>
           <ClientRectangle>120,140,120,60</ClientRectangle>
           <ForeColor>Transparent</ForeColor>
@@ -639,7 +711,7 @@
           <Page isRef="4" />
           <Parent isRef="4" />
           <Text>&lt;font face="Arial" size="16"&gt;&lt;text-align="Center"&gt;&lt;b&gt;&lt;font-color="White"&gt;Likes&lt;/font-color&gt;&lt;/b&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
-          <Title Ref="98" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="100" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -647,7 +719,8 @@
             <Visible>False</Visible>
           </Title>
         </Text2>
-        <Text3 Ref="99" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+        <Text3 Ref="101" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>42, 42, 42</BackColor>
           <ClientRectangle>240,140,120,60</ClientRectangle>
           <ForeColor>Transparent</ForeColor>
@@ -658,7 +731,7 @@
           <Page isRef="4" />
           <Parent isRef="4" />
           <Text>&lt;font face="Arial" size="16"&gt;&lt;text-align="Center"&gt;&lt;b&gt;&lt;font-color="White"&gt;Followers&lt;/font-color&gt;&lt;/b&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
-          <Title Ref="100" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="102" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -685,12 +758,13 @@
   </ReferencedAssemblies>
   <ReportAlias>DashboardSocialNetworksStatistics</ReportAlias>
   <ReportAuthor>Stimulsoft</ReportAuthor>
-  <ReportChanged>6/7/2019 5:03:07 PM</ReportChanged>
+  <ReportChanged>6/17/2020 4:51:11 PM</ReportChanged>
   <ReportCreated>12/6/2018 10:38:48 PM</ReportCreated>
-  <ReportGuid>99df63a69e764ec39c712f45fe23a737</ReportGuid>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Reports\CloudDesigner.Web\Reports\DashboardSocialNetworksStatistics.mrt</ReportFile>
+  <ReportGuid>d951dfe5ac244cc9846145f73cc4df8b</ReportGuid>
   <ReportName>DashboardSocialNetworksStatistics</ReportName>
   <ReportUnit>Inches</ReportUnit>
-  <ReportVersion>2019.3.1.0</ReportVersion>
+  <ReportVersion>2020.3.2.0</ReportVersion>
   <Script>using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -716,20 +790,20 @@ namespace Reports
 </Script>
   <ScriptLanguage>CSharp</ScriptLanguage>
   <Styles isList="true" count="8">
-    <Sessions Ref="101" type="Stimulsoft.Report.StiChartStyle" isKey="true">
+    <Sessions Ref="103" type="Stimulsoft.Report.StiChartStyle" isKey="true">
       <AxisLabelsColor>White</AxisLabelsColor>
       <AxisLineColor>White</AxisLineColor>
       <AxisTitleColor>White</AxisTitleColor>
       <BasicStyleColor>WhiteSmoke</BasicStyleColor>
       <Brush>[42:42:42]</Brush>
-      <ChartAreaBorderColor>171, 172, 173</ChartAreaBorderColor>
+      <ChartAreaBorderColor>Transparent</ChartAreaBorderColor>
       <ChartAreaBrush>[42:42:42]</ChartAreaBrush>
       <Conditions isList="true" count="0" />
       <GridLinesHorColor>Transparent</GridLinesHorColor>
       <GridLinesVertColor>100, 105, 105, 105</GridLinesVertColor>
       <InterlacingHorBrush>[10:155:155:155]</InterlacingHorBrush>
       <InterlacingVertBrush>[10:155:155:155]</InterlacingVertBrush>
-      <LegendBorderColor>DimGray</LegendBorderColor>
+      <LegendBorderColor>Transparent</LegendBorderColor>
       <LegendBrush>White</LegendBrush>
       <LegendLabelsColor>Magenta</LegendLabelsColor>
       <LegendTitleColor>DimGray</LegendTitleColor>
@@ -742,7 +816,7 @@ namespace Reports
       <StyleColors>[52:152:219], [68:114:196], [255:192:0], [67:104:43], [38:68:120], [153:115:0]</StyleColors>
       <TrendLineColor>140, 140, 140</TrendLineColor>
     </Sessions>
-    <Page_View Ref="102" type="Stimulsoft.Report.StiGaugeStyle" isKey="true">
+    <Page_View Ref="104" type="Stimulsoft.Report.StiGaugeStyle" isKey="true">
       <BorderColor>Transparent</BorderColor>
       <Brush>[42:42:42]</Brush>
       <Conditions isList="true" count="0" />
@@ -763,6 +837,7 @@ namespace Reports
       <RadialBarBrush>[52:152:219]</RadialBarBrush>
       <RadialBarEmptyBorderBrush>EmptyBrush</RadialBarEmptyBorderBrush>
       <RadialBarEmptyBrush>[239:113:122]</RadialBarEmptyBrush>
+      <TargetColor>Black</TargetColor>
       <TickLabelMajorFont>Arial,10</TickLabelMajorFont>
       <TickLabelMajorTextBrush>[51:71:91]</TickLabelMajorTextBrush>
       <TickLabelMinorFont>Arial,10</TickLabelMinorFont>
@@ -774,7 +849,7 @@ namespace Reports
       <TickMarkMinorBorderWidth>1</TickMarkMinorBorderWidth>
       <TickMarkMinorBrush>[68:114:196]</TickMarkMinorBrush>
     </Page_View>
-    <Returing_Visitors Ref="103" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+    <Returing_Visitors Ref="105" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
       <BackColor>42, 42, 42</BackColor>
       <Conditions isList="true" count="0" />
       <ForeColor>White</ForeColor>
@@ -784,19 +859,22 @@ namespace Reports
       <NegativeColor>Red</NegativeColor>
       <PositiveColor>Green</PositiveColor>
     </Returing_Visitors>
-    <Map_of_World Ref="104" type="Stimulsoft.Report.StiMapStyle" isKey="true">
+    <Map_of_World Ref="106" type="Stimulsoft.Report.StiMapStyle" isKey="true">
       <BackColor>42, 42, 42</BackColor>
       <BorderColor>70, 127, 164</BorderColor>
+      <BorderSize>0.7</BorderSize>
+      <BubbleBackColor>Red</BubbleBackColor>
+      <BubbleBorderColor>White</BubbleBorderColor>
       <Colors>[52:152:219], [68:114:196], [255:192:0], [67:104:43], [253:106:55], [153:115:0]</Colors>
       <Conditions isList="true" count="0" />
       <DefaultColor>68, 114, 196</DefaultColor>
       <HeatmapColors>[52:152:219], Yellow</HeatmapColors>
       <IndividualColor>52, 152, 219</IndividualColor>
-      <LabelForeground>180, 251, 251, 251</LabelForeground>
+      <LabelForeground>Black</LabelForeground>
       <LabelShadowForeground>White</LabelShadowForeground>
       <Name>Map_of_World</Name>
     </Map_of_World>
-    <Users Ref="105" type="Stimulsoft.Report.StiChartStyle" isKey="true">
+    <Users Ref="107" type="Stimulsoft.Report.StiChartStyle" isKey="true">
       <AxisLabelsColor>White</AxisLabelsColor>
       <AxisLineColor>White</AxisLineColor>
       <AxisTitleColor>White</AxisTitleColor>
@@ -821,7 +899,7 @@ namespace Reports
       <StyleColors>[52:152:219], [239:113:122], [255:188:56], [67:104:43], [38:68:120], [153:115:0]</StyleColors>
       <TrendLineColor>Red</TrendLineColor>
     </Users>
-    <Social Ref="106" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+    <Social Ref="108" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
       <BackColor>42, 42, 42</BackColor>
       <Conditions isList="true" count="0" />
       <ForeColor>White</ForeColor>
@@ -831,7 +909,7 @@ namespace Reports
       <NegativeColor>Red</NegativeColor>
       <PositiveColor>Green</PositiveColor>
     </Social>
-    <New_Users Ref="107" type="Stimulsoft.Report.StiProgressStyle" isKey="true">
+    <New_Users Ref="109" type="Stimulsoft.Report.StiProgressStyle" isKey="true">
       <BackColor>42, 42, 42</BackColor>
       <BandColor>Aqua</BandColor>
       <Conditions isList="true" count="0" />
@@ -840,7 +918,7 @@ namespace Reports
       <SeriesColors>[52:152:219], [239:113:122], [109:203:179], [242:129:97], [252:205:27]</SeriesColors>
       <TrackColor>231, 235, 236</TrackColor>
     </New_Users>
-    <Bounce_Rate Ref="108" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
+    <Bounce_Rate Ref="110" type="Stimulsoft.Report.StiIndicatorStyle" isKey="true">
       <BackColor>42, 42, 42</BackColor>
       <Conditions isList="true" count="0" />
       <ForeColor>White</ForeColor>

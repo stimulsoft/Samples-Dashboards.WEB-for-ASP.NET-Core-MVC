@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
   <Culture>en-US</Culture>
   <Dictionary Ref="1" type="Dictionary" isKey="true">
     <BusinessObjects isList="true" count="0" />
@@ -123,8 +124,10 @@
             </Item9>
           </Arguments>
           <BackColor>Transparent</BackColor>
+          <ChartConditions isList="true" count="0" />
           <ClientRectangle>0,40,600,280</ClientRectangle>
           <CloseValues isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
           <DataFilters isList="true" count="0" />
           <EndValues isList="true" count="0" />
           <Guid>3f61b2b3421b4e9db6ca3782bbaa458b</Guid>
@@ -133,19 +136,19 @@
             <Font>Arial,8</Font>
             <ForeColor>Transparent</ForeColor>
           </Labels>
-          <Layout Ref="15" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
-          <Legend Ref="16" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
-            <Labels Ref="17" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+          <Legend Ref="15" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="16" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
               <Color>Transparent</Color>
               <Font>Arial,8</Font>
             </Labels>
-            <Title Ref="18" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+            <Title Ref="17" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
               <Color>Transparent</Color>
               <Font>Arial,12,Bold</Font>
             </Title>
           </Legend>
           <LowValues isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
+          <Marker Ref="18" type="Stimulsoft.Dashboard.Components.Chart.StiChartMarker" isKey="true" />
           <Name>Chart4</Name>
           <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
@@ -163,6 +166,7 @@
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
           <ValueFormat Ref="21" type="CurrencyFormat" isKey="true">
             <DecimalDigits>0</DecimalDigits>
             <GroupSeparator>,</GroupSeparator>
@@ -183,184 +187,256 @@
             </Item11>
           </Values>
           <Weights isList="true" count="0" />
+          <XAxis Ref="24" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxis" isKey="true">
+            <Labels Ref="25" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="26" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxisTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+              <Visible>False</Visible>
+            </Title>
+          </XAxis>
+          <YAxis Ref="27" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxis" isKey="true">
+            <Labels Ref="28" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="29" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxisTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+              <Visible>False</Visible>
+            </Title>
+          </YAxis>
         </Chart4>
-        <Chart5 Ref="24" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
-          <Area Ref="25" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
-            <InterlacingHor Ref="26" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+        <Chart5 Ref="30" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="31" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="32" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
               <Color>Transparent</Color>
             </InterlacingHor>
-            <InterlacingVert Ref="27" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+            <InterlacingVert Ref="33" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
               <Color>Transparent</Color>
             </InterlacingVert>
           </Area>
           <Arguments isList="true" count="1">
-            <Item13 Ref="28" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item13 Ref="34" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>Requests.Category</Expression>
               <Key>7f6cdbf093a34ba6a1ef02253a77184a</Key>
             </Item13>
           </Arguments>
           <BackColor>Transparent</BackColor>
+          <ChartConditions isList="true" count="0" />
           <ClientRectangle>0,320,600,280</ClientRectangle>
           <CloseValues isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
           <DataFilters isList="true" count="0" />
           <EndValues isList="true" count="0" />
           <Guid>002e5d08e30540a385800c96032f5853</Guid>
           <HighValues isList="true" count="0" />
-          <Labels Ref="29" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+          <Labels Ref="35" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
             <Font>Arial,8</Font>
             <ForeColor>Transparent</ForeColor>
           </Labels>
-          <Layout Ref="30" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
-          <Legend Ref="31" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
-            <Labels Ref="32" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+          <Legend Ref="36" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="37" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
               <Color>Transparent</Color>
               <Font>Arial,8</Font>
             </Labels>
-            <Title Ref="33" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+            <Title Ref="38" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
               <Color>Transparent</Color>
               <Font>Arial,12,Bold</Font>
             </Title>
           </Legend>
           <LowValues isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
+          <Marker Ref="39" type="Stimulsoft.Dashboard.Components.Chart.StiChartMarker" isKey="true" />
           <Name>Chart5</Name>
           <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
           <Page isRef="8" />
           <Parent isRef="8" />
           <SeriesColors />
-          <Title Ref="34" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="40" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Number of Requests by Category</Text>
           </Title>
-          <TopN Ref="35" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TopN Ref="41" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <ValueFormat Ref="36" type="NumberFormat" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <ValueFormat Ref="42" type="NumberFormat" isKey="true">
             <DecimalDigits>0</DecimalDigits>
             <GroupSeparator>,</GroupSeparator>
             <NegativePattern>1</NegativePattern>
             <State>DecimalDigits</State>
           </ValueFormat>
           <Values isList="true" count="1">
-            <Item14 Ref="37" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item14 Ref="43" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Requests.Requests)</Expression>
               <Key>87f41c7150f342c4a241fe25747d5c43</Key>
             </Item14>
           </Values>
           <Weights isList="true" count="0" />
+          <XAxis Ref="44" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxis" isKey="true">
+            <Labels Ref="45" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="46" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxisTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+              <Visible>False</Visible>
+            </Title>
+          </XAxis>
+          <YAxis Ref="47" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxis" isKey="true">
+            <Labels Ref="48" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="49" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxisTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+              <Visible>False</Visible>
+            </Title>
+          </YAxis>
         </Chart5>
-        <Chart6 Ref="38" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
-          <Area Ref="39" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
-            <InterlacingHor Ref="40" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+        <Chart6 Ref="50" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="51" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="52" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
               <Color>Transparent</Color>
             </InterlacingHor>
-            <InterlacingVert Ref="41" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+            <InterlacingVert Ref="53" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
               <Color>Transparent</Color>
             </InterlacingVert>
           </Area>
           <Arguments isList="true" count="1">
-            <Item16 Ref="42" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item16 Ref="54" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>Sales.Day</Expression>
               <Key>99f6136e72b749e3a34285f1a1fc7e26</Key>
             </Item16>
           </Arguments>
           <BackColor>Transparent</BackColor>
+          <ChartConditions isList="true" count="0" />
           <ClientRectangle>600,320,600,280</ClientRectangle>
           <CloseValues isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
           <DataFilters isList="true" count="0" />
           <EndValues isList="true" count="0" />
           <Guid>1da90577f43746cbb50671bdcce3033e</Guid>
           <HighValues isList="true" count="0" />
-          <Labels Ref="43" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+          <Labels Ref="55" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
             <Font>Arial,8</Font>
             <ForeColor>Transparent</ForeColor>
           </Labels>
-          <Layout Ref="44" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
-          <Legend Ref="45" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
-            <Labels Ref="46" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+          <Legend Ref="56" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="57" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
               <Color>Transparent</Color>
               <Font>Arial,8</Font>
             </Labels>
-            <Title Ref="47" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+            <Title Ref="58" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
               <Color>Transparent</Color>
               <Font>Arial,12,Bold</Font>
             </Title>
           </Legend>
           <LowValues isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
+          <Marker Ref="59" type="Stimulsoft.Dashboard.Components.Chart.StiChartMarker" isKey="true" />
           <Name>Chart6</Name>
           <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
           <Page isRef="8" />
           <Parent isRef="8" />
           <SeriesColors />
-          <Title Ref="48" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="60" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>My Sales by Category</Text>
           </Title>
-          <TopN Ref="49" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TopN Ref="61" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <ValueFormat Ref="50" type="NumberFormat" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <ValueFormat Ref="62" type="NumberFormat" isKey="true">
             <DecimalDigits>0</DecimalDigits>
             <GroupSeparator>,</GroupSeparator>
             <NegativePattern>1</NegativePattern>
             <State>DecimalDigits</State>
           </ValueFormat>
           <Values isList="true" count="8">
-            <Item17 Ref="51" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item17 Ref="63" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Sales.Beverages)</Expression>
               <Key>80f1f4a2a9884df89878aeab1d86f5dd</Key>
               <SeriesType>Area</SeriesType>
             </Item17>
-            <Item18 Ref="52" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item18 Ref="64" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Sales.Confections)</Expression>
               <Key>f472b94a7bd34fa7b90240ea0ed6fa78</Key>
               <SeriesType>Area</SeriesType>
             </Item18>
-            <Item19 Ref="53" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item19 Ref="65" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Sales.Condiments)</Expression>
               <Key>7697386d61ef4eda967ebb62221fde79</Key>
               <SeriesType>Area</SeriesType>
             </Item19>
-            <Item20 Ref="54" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item20 Ref="66" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum([Sales.Dairy Products])</Expression>
               <Key>3a5b79e0a6e6447a934dbf97d3cbb4b2</Key>
               <SeriesType>Area</SeriesType>
             </Item20>
-            <Item21 Ref="55" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item21 Ref="67" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Sales.Grains)</Expression>
               <Key>3bcee9169fbe42528008f660c704a781</Key>
               <SeriesType>Area</SeriesType>
             </Item21>
-            <Item22 Ref="56" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item22 Ref="68" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Sales.Meat)</Expression>
               <Key>03de036c68e64bc3941c7a38fb58dbc0</Key>
               <SeriesType>Area</SeriesType>
             </Item22>
-            <Item23 Ref="57" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item23 Ref="69" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Sales.Produce)</Expression>
               <Key>2dcbee92af174ef7a368c0603960e73a</Key>
               <SeriesType>Area</SeriesType>
             </Item23>
-            <Item24 Ref="58" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item24 Ref="70" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Sales.Seafood)</Expression>
               <Key>79d4aed401564f5586fbff4553282ec8</Key>
               <SeriesType>Area</SeriesType>
             </Item24>
           </Values>
           <Weights isList="true" count="0" />
+          <XAxis Ref="71" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxis" isKey="true">
+            <Labels Ref="72" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="73" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxisTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+              <Visible>False</Visible>
+            </Title>
+          </XAxis>
+          <YAxis Ref="74" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxis" isKey="true">
+            <Labels Ref="75" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="76" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxisTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+              <Visible>False</Visible>
+            </Title>
+          </YAxis>
         </Chart6>
-        <Text2 Ref="59" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+        <Text2 Ref="77" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,0,1200,40</ClientRectangle>
           <ForeColor>Transparent</ForeColor>
@@ -371,7 +447,7 @@
           <Page isRef="8" />
           <Parent isRef="8" />
           <Text>&lt;font face="Arial" size="36"&gt;&lt;text-align="Center"&gt;Sales Statistics&lt;/text-align&gt;&lt;/font&gt;</Text>
-          <Title Ref="60" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="78" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -379,43 +455,42 @@
             <Visible>False</Visible>
           </Title>
         </Text2>
-        <Progress1 Ref="61" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
+        <Progress1 Ref="79" type="Stimulsoft.Dashboard.Components.Progress.StiProgressElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>600,40,600,280</ClientRectangle>
           <DataFilters isList="true" count="0" />
           <Font>Arial,13,Bold</Font>
           <ForeColor>Transparent</ForeColor>
           <Guid>35bbf5f9fdc1473abc1f18663d5c3ea0</Guid>
-          <Layout Ref="62" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Mode>DataBars</Mode>
           <Name>Progress1</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="8" />
           <Parent isRef="8" />
-          <Series Ref="63" type="Stimulsoft.Dashboard.Components.Progress.StiSeriesProgressMeter" isKey="true">
+          <Series Ref="80" type="Stimulsoft.Dashboard.Components.Progress.StiSeriesProgressMeter" isKey="true">
             <Expression>Requests.Category</Expression>
             <Key>2295c92f5d2f4f05ad2311ccec82d104</Key>
             <Label>Category</Label>
           </Series>
           <SeriesColors />
-          <Target Ref="64" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
+          <Target Ref="81" type="Stimulsoft.Dashboard.Components.Progress.StiTargetProgressMeter" isKey="true">
             <Expression>Sum(Requests.Target)</Expression>
             <Key>a313bff6a6ab40e3999a248c78416b7f</Key>
             <Label>Target</Label>
           </Target>
-          <Title Ref="65" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="82" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Statistics</Text>
           </Title>
-          <TopN Ref="66" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="67" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <Value Ref="83" type="Stimulsoft.Dashboard.Components.Progress.StiValueProgressMeter" isKey="true">
             <Expression>Sum(Requests.Requests)</Expression>
             <Key>618412bde47548d995c05897232eb022</Key>
             <Label>Requests</Label>
@@ -427,114 +502,38 @@
       <Report isRef="0" />
       <Style>DarkTurquoise</Style>
     </Dashboard2>
-    <Dashboard1 Ref="68" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+    <Dashboard1 Ref="84" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
       <Alias>Sales Statistics</Alias>
       <BackColor>Transparent</BackColor>
       <Components isList="true" count="5">
-        <Chart1 Ref="69" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
-          <Area Ref="70" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
-            <InterlacingHor Ref="71" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+        <Chart1 Ref="85" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="86" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="87" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
               <Color>Transparent</Color>
             </InterlacingHor>
-            <InterlacingVert Ref="72" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+            <InterlacingVert Ref="88" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
               <Color>Transparent</Color>
             </InterlacingVert>
           </Area>
           <Arguments isList="true" count="1">
-            <Item29 Ref="73" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+            <Item29 Ref="89" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
               <Expression>[Average Check.Day]</Expression>
               <Key>68153d517fe54e1da4b8467f2dea2f17</Key>
             </Item29>
           </Arguments>
           <BackColor>Transparent</BackColor>
+          <ChartConditions isList="true" count="0" />
           <ClientRectangle>0,40,600,280</ClientRectangle>
           <CloseValues isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
           <DataFilters isList="true" count="0" />
           <EndValues isList="true" count="0" />
           <Guid>3f61b2b3421b4e9db6ca3782bbaa458b</Guid>
           <HighValues isList="true" count="0" />
-          <Labels Ref="74" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+          <Labels Ref="90" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
             <Font>Arial,8</Font>
             <ForeColor>Transparent</ForeColor>
           </Labels>
-          <Layout Ref="75" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
-          <Legend Ref="76" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
-            <Labels Ref="77" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
-              <Color>Transparent</Color>
-              <Font>Arial,8</Font>
-            </Labels>
-            <Title Ref="78" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
-              <Color>Transparent</Color>
-              <Font>Arial,12,Bold</Font>
-            </Title>
-          </Legend>
-          <LowValues isList="true" count="0" />
-          <Margin>3,3,3,3</Margin>
-          <Name>Chart1</Name>
-          <NegativeSeriesColors />
-          <Padding>5,5,5,5</Padding>
-          <Page isRef="68" />
-          <Parent isRef="68" />
-          <SeriesColors />
-          <Title Ref="79" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
-            <BackColor>Transparent</BackColor>
-            <Font>Arial,15.75,Regular,Point,False,204</Font>
-            <ForeColor>Transparent</ForeColor>
-            <HorAlignment>Center</HorAlignment>
-            <Text>Average Check</Text>
-          </Title>
-          <TopN Ref="80" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
-          <TransformActions isList="true" count="0" />
-          <TransformFilters isList="true" count="0" />
-          <TransformSorts isList="true" count="0" />
-          <ValueFormat Ref="81" type="CurrencyFormat" isKey="true">
-            <DecimalDigits>0</DecimalDigits>
-            <GroupSeparator>,</GroupSeparator>
-            <NegativePattern>0</NegativePattern>
-            <PositivePattern>0</PositivePattern>
-            <State>DecimalDigits, Abbreviation</State>
-          </ValueFormat>
-          <Values isList="true" count="2">
-            <Item30 Ref="82" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
-              <Expression>Sum([Average Check.Real])</Expression>
-              <Key>f849a92638e84c3c99bfc0a890414986</Key>
-              <SeriesType>StackedColumn</SeriesType>
-            </Item30>
-            <Item31 Ref="83" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
-              <Expression>Sum([Average Check.Estimated])</Expression>
-              <Key>7153ba4399794897ae71f7820d4a3302</Key>
-              <SeriesType>StackedColumn</SeriesType>
-            </Item31>
-          </Values>
-          <Weights isList="true" count="0" />
-        </Chart1>
-        <Chart2 Ref="84" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
-          <Area Ref="85" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
-            <InterlacingHor Ref="86" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
-              <Color>Transparent</Color>
-            </InterlacingHor>
-            <InterlacingVert Ref="87" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
-              <Color>Transparent</Color>
-            </InterlacingVert>
-          </Area>
-          <Arguments isList="true" count="1">
-            <Item33 Ref="88" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
-              <Expression>Requests.Category</Expression>
-              <Key>7f6cdbf093a34ba6a1ef02253a77184a</Key>
-            </Item33>
-          </Arguments>
-          <BackColor>Transparent</BackColor>
-          <ClientRectangle>0,320,600,280</ClientRectangle>
-          <CloseValues isList="true" count="0" />
-          <DataFilters isList="true" count="0" />
-          <EndValues isList="true" count="0" />
-          <Guid>002e5d08e30540a385800c96032f5853</Guid>
-          <HighValues isList="true" count="0" />
-          <Labels Ref="89" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
-            <Font>Arial,8</Font>
-            <ForeColor>Transparent</ForeColor>
-          </Labels>
-          <Layout Ref="90" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Legend Ref="91" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
             <Labels Ref="92" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
               <Color>Transparent</Color>
@@ -547,144 +546,295 @@
           </Legend>
           <LowValues isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
-          <Name>Chart2</Name>
+          <Marker Ref="94" type="Stimulsoft.Dashboard.Components.Chart.StiChartMarker" isKey="true" />
+          <Name>Chart1</Name>
           <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
-          <Page isRef="68" />
-          <Parent isRef="68" />
+          <Page isRef="84" />
+          <Parent isRef="84" />
           <SeriesColors />
-          <Title Ref="94" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="95" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
-            <Text>Number of Requests by Category</Text>
+            <Text>Average Check</Text>
           </Title>
-          <TopN Ref="95" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TopN Ref="96" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <ValueFormat Ref="96" type="NumberFormat" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <ValueFormat Ref="97" type="CurrencyFormat" isKey="true">
             <DecimalDigits>0</DecimalDigits>
             <GroupSeparator>,</GroupSeparator>
-            <NegativePattern>1</NegativePattern>
-            <State>DecimalDigits</State>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>DecimalDigits, Abbreviation</State>
           </ValueFormat>
-          <Values isList="true" count="1">
-            <Item34 Ref="97" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
-              <Expression>Sum(Requests.Requests)</Expression>
-              <Key>87f41c7150f342c4a241fe25747d5c43</Key>
-            </Item34>
+          <Values isList="true" count="2">
+            <Item30 Ref="98" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Sum([Average Check.Real])</Expression>
+              <Key>f849a92638e84c3c99bfc0a890414986</Key>
+              <SeriesType>StackedColumn</SeriesType>
+            </Item30>
+            <Item31 Ref="99" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Sum([Average Check.Estimated])</Expression>
+              <Key>7153ba4399794897ae71f7820d4a3302</Key>
+              <SeriesType>StackedColumn</SeriesType>
+            </Item31>
           </Values>
           <Weights isList="true" count="0" />
-        </Chart2>
-        <Chart3 Ref="98" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
-          <Area Ref="99" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
-            <InterlacingHor Ref="100" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+          <XAxis Ref="100" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxis" isKey="true">
+            <Labels Ref="101" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="102" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxisTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+              <Visible>False</Visible>
+            </Title>
+          </XAxis>
+          <YAxis Ref="103" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxis" isKey="true">
+            <Labels Ref="104" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="105" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxisTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+              <Visible>False</Visible>
+            </Title>
+          </YAxis>
+        </Chart1>
+        <Chart2 Ref="106" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="107" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="108" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
               <Color>Transparent</Color>
             </InterlacingHor>
-            <InterlacingVert Ref="101" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+            <InterlacingVert Ref="109" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
               <Color>Transparent</Color>
             </InterlacingVert>
           </Area>
           <Arguments isList="true" count="1">
-            <Item36 Ref="102" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
-              <Expression>Sales.Day</Expression>
-              <Key>99f6136e72b749e3a34285f1a1fc7e26</Key>
-            </Item36>
+            <Item33 Ref="110" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+              <Expression>Requests.Category</Expression>
+              <Key>7f6cdbf093a34ba6a1ef02253a77184a</Key>
+            </Item33>
           </Arguments>
           <BackColor>Transparent</BackColor>
-          <ClientRectangle>600,320,600,280</ClientRectangle>
+          <ChartConditions isList="true" count="0" />
+          <ClientRectangle>0,320,600,280</ClientRectangle>
           <CloseValues isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
           <DataFilters isList="true" count="0" />
           <EndValues isList="true" count="0" />
-          <Guid>1da90577f43746cbb50671bdcce3033e</Guid>
+          <Guid>002e5d08e30540a385800c96032f5853</Guid>
           <HighValues isList="true" count="0" />
-          <Labels Ref="103" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+          <Labels Ref="111" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
             <Font>Arial,8</Font>
             <ForeColor>Transparent</ForeColor>
           </Labels>
-          <Layout Ref="104" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
-          <Legend Ref="105" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
-            <Labels Ref="106" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+          <Legend Ref="112" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="113" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
               <Color>Transparent</Color>
               <Font>Arial,8</Font>
             </Labels>
-            <Title Ref="107" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+            <Title Ref="114" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
               <Color>Transparent</Color>
               <Font>Arial,12,Bold</Font>
             </Title>
           </Legend>
           <LowValues isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
+          <Marker Ref="115" type="Stimulsoft.Dashboard.Components.Chart.StiChartMarker" isKey="true" />
+          <Name>Chart2</Name>
+          <NegativeSeriesColors />
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="84" />
+          <Parent isRef="84" />
+          <SeriesColors />
+          <Title Ref="116" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,15.75,Regular,Point,False,204</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Number of Requests by Category</Text>
+          </Title>
+          <TopN Ref="117" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <ValueFormat Ref="118" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits</State>
+          </ValueFormat>
+          <Values isList="true" count="1">
+            <Item34 Ref="119" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Sum(Requests.Requests)</Expression>
+              <Key>87f41c7150f342c4a241fe25747d5c43</Key>
+            </Item34>
+          </Values>
+          <Weights isList="true" count="0" />
+          <XAxis Ref="120" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxis" isKey="true">
+            <Labels Ref="121" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="122" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxisTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+              <Visible>False</Visible>
+            </Title>
+          </XAxis>
+          <YAxis Ref="123" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxis" isKey="true">
+            <Labels Ref="124" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="125" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxisTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+              <Visible>False</Visible>
+            </Title>
+          </YAxis>
+        </Chart2>
+        <Chart3 Ref="126" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <Area Ref="127" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="128" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="129" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+          </Area>
+          <Arguments isList="true" count="1">
+            <Item36 Ref="130" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+              <Expression>Sales.Day</Expression>
+              <Key>99f6136e72b749e3a34285f1a1fc7e26</Key>
+            </Item36>
+          </Arguments>
+          <BackColor>Transparent</BackColor>
+          <ChartConditions isList="true" count="0" />
+          <ClientRectangle>600,320,600,280</ClientRectangle>
+          <CloseValues isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <DataFilters isList="true" count="0" />
+          <EndValues isList="true" count="0" />
+          <Guid>1da90577f43746cbb50671bdcce3033e</Guid>
+          <HighValues isList="true" count="0" />
+          <Labels Ref="131" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Legend Ref="132" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <Labels Ref="133" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="134" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
+          <LowValues isList="true" count="0" />
+          <Margin>3,3,3,3</Margin>
+          <Marker Ref="135" type="Stimulsoft.Dashboard.Components.Chart.StiChartMarker" isKey="true" />
           <Name>Chart3</Name>
           <NegativeSeriesColors />
           <Padding>5,5,5,5</Padding>
-          <Page isRef="68" />
-          <Parent isRef="68" />
+          <Page isRef="84" />
+          <Parent isRef="84" />
           <SeriesColors />
-          <Title Ref="108" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="136" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>My Sales by Category</Text>
           </Title>
-          <TopN Ref="109" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TopN Ref="137" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <ValueFormat Ref="110" type="NumberFormat" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <ValueFormat Ref="138" type="NumberFormat" isKey="true">
             <DecimalDigits>0</DecimalDigits>
             <GroupSeparator>,</GroupSeparator>
             <NegativePattern>1</NegativePattern>
             <State>DecimalDigits</State>
           </ValueFormat>
           <Values isList="true" count="8">
-            <Item37 Ref="111" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item37 Ref="139" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Sales.Beverages)</Expression>
               <Key>80f1f4a2a9884df89878aeab1d86f5dd</Key>
               <SeriesType>Area</SeriesType>
             </Item37>
-            <Item38 Ref="112" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item38 Ref="140" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Sales.Confections)</Expression>
               <Key>f472b94a7bd34fa7b90240ea0ed6fa78</Key>
               <SeriesType>Area</SeriesType>
             </Item38>
-            <Item39 Ref="113" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item39 Ref="141" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Sales.Condiments)</Expression>
               <Key>7697386d61ef4eda967ebb62221fde79</Key>
               <SeriesType>Area</SeriesType>
             </Item39>
-            <Item40 Ref="114" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item40 Ref="142" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum([Sales.Dairy Products])</Expression>
               <Key>3a5b79e0a6e6447a934dbf97d3cbb4b2</Key>
               <SeriesType>Area</SeriesType>
             </Item40>
-            <Item41 Ref="115" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item41 Ref="143" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Sales.Grains)</Expression>
               <Key>3bcee9169fbe42528008f660c704a781</Key>
               <SeriesType>Area</SeriesType>
             </Item41>
-            <Item42 Ref="116" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item42 Ref="144" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Sales.Meat)</Expression>
               <Key>03de036c68e64bc3941c7a38fb58dbc0</Key>
               <SeriesType>Area</SeriesType>
             </Item42>
-            <Item43 Ref="117" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item43 Ref="145" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Sales.Produce)</Expression>
               <Key>2dcbee92af174ef7a368c0603960e73a</Key>
               <SeriesType>Area</SeriesType>
             </Item43>
-            <Item44 Ref="118" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Item44 Ref="146" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
               <Expression>Sum(Sales.Seafood)</Expression>
               <Key>79d4aed401564f5586fbff4553282ec8</Key>
               <SeriesType>Area</SeriesType>
             </Item44>
           </Values>
           <Weights isList="true" count="0" />
+          <XAxis Ref="147" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxis" isKey="true">
+            <Labels Ref="148" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="149" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxisTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+              <Visible>False</Visible>
+            </Title>
+          </XAxis>
+          <YAxis Ref="150" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxis" isKey="true">
+            <Labels Ref="151" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="152" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxisTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+              <Visible>False</Visible>
+            </Title>
+          </YAxis>
         </Chart3>
-        <Indicator1 Ref="119" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+        <Indicator1 Ref="153" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>600,40,600,280</ClientRectangle>
           <DataFilters isList="true" count="0" />
@@ -692,46 +842,47 @@
           <ForeColor>Transparent</ForeColor>
           <GlyphColor>Transparent</GlyphColor>
           <Guid>109733f6903b400293c8569fcec9fcdd</Guid>
-          <Layout Ref="120" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
           <Name>Indicator1</Name>
           <Padding>5,5,5,5</Padding>
-          <Page isRef="68" />
-          <Parent isRef="68" />
-          <Series Ref="121" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
+          <Page isRef="84" />
+          <Parent isRef="84" />
+          <Series Ref="154" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
             <Expression>Requests.Category</Expression>
             <Key>405ec51c1a744b16b243e36bb0403172</Key>
             <Label>Category</Label>
           </Series>
-          <Target Ref="122" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
+          <Target Ref="155" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
             <Expression>Sum(Requests.Target)</Expression>
             <Key>dd3bce9f37174a39a4d781dbbd8b48b2</Key>
             <Label>Target</Label>
           </Target>
-          <TextFormat Ref="123" type="NumberFormat" isKey="true">
+          <TextFormat Ref="156" type="NumberFormat" isKey="true">
             <DecimalDigits>0</DecimalDigits>
             <GroupSeparator>,</GroupSeparator>
             <NegativePattern>1</NegativePattern>
             <State>DecimalDigits</State>
           </TextFormat>
-          <Title Ref="124" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="157" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Statistics</Text>
           </Title>
-          <TopN Ref="125" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="126" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <Value Ref="158" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
             <Expression>Sum(Requests.Requests)</Expression>
             <Key>b84a17ea0b1a451a9037032a76f021fc</Key>
             <Label>Requests</Label>
           </Value>
         </Indicator1>
-        <Text1 Ref="127" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+        <Text1 Ref="159" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,0,1200,40</ClientRectangle>
           <ForeColor>Transparent</ForeColor>
@@ -739,10 +890,10 @@
           <Margin>3,3,3,3</Margin>
           <Name>Text1</Name>
           <Padding>0,0,0,0</Padding>
-          <Page isRef="68" />
-          <Parent isRef="68" />
+          <Page isRef="84" />
+          <Parent isRef="84" />
           <Text>&lt;font face="Arial" size="36"&gt;&lt;text-align="Center"&gt;Sales Statistics&lt;/text-align&gt;&lt;/font&gt;</Text>
-          <Title Ref="128" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="160" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,11</Font>
             <ForeColor>Transparent</ForeColor>
@@ -769,12 +920,13 @@
   </ReferencedAssemblies>
   <ReportAlias>DashboardSalesStatistics</ReportAlias>
   <ReportAuthor>Stimulsoft</ReportAuthor>
-  <ReportChanged>6/7/2019 5:02:21 PM</ReportChanged>
+  <ReportChanged>10/25/2019 10:34:53 AM</ReportChanged>
   <ReportCreated>6/17/2018 4:30:06 PM</ReportCreated>
-  <ReportGuid>f5aa27fd792c4d93a8292a8bfae9b580</ReportGuid>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Reports\CloudDesigner.Web\Reports\DashboardSalesStatistics.mrt</ReportFile>
+  <ReportGuid>22f35bca2b714716aa02e039c3ef68d6</ReportGuid>
   <ReportName>DashboardSalesStatistics</ReportName>
   <ReportUnit>Inches</ReportUnit>
-  <ReportVersion>2019.3.1.0</ReportVersion>
+  <ReportVersion>2019.4.1.0</ReportVersion>
   <Script>using System;
 using System.Drawing;
 using System.Windows.Forms;

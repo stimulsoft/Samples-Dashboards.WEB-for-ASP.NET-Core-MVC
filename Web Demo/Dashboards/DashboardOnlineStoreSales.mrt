@@ -1,10 +1,10 @@
 {
-  "ReportVersion": "2019.1.1.0",
-  "ReportGuid": "839903adff70410a912a50b4b7c985c9",
+  "ReportVersion": "2020.2.3.0",
+  "ReportGuid": "58c808794735414090a065eeb1567554",
   "ReportName": "DashboardOnlineStoreSales",
   "ReportAlias": "DashboardOnlineStoreSales",
   "ReportCreated": "/Date(1531223785358+0300)/",
-  "ReportChanged": "/Date(1548230847127+0300)/",
+  "ReportChanged": "/Date(1590859326611+0300)/",
   "EngineVersion": "EngineV2",
   "CalculationMode": "Interpretation",
   "ReportUnit": "Inches",
@@ -33,6 +33,7 @@
         "Ident": "StiDataTableSource",
         "Name": "Relative Share",
         "Alias": "Relative Share",
+        "Key": "f54875ef490e4e52b8eaa74f7f3ab205",
         "Columns": {
           "0": {
             "Name": "YearID",
@@ -76,6 +77,7 @@
         "Ident": "StiDataTableSource",
         "Name": "Volume",
         "Alias": "Volume",
+        "Key": "e67e722eb3784119b5cedf78ddf6df14",
         "Columns": {
           "0": {
             "Name": "YearID",
@@ -147,23 +149,17 @@
           "Name": "Text1",
           "Guid": "3d9d8a197d634129b476daf72f5feab5",
           "ClientRectangle": "0,0,1200,40",
-          "Margin": {
-            "Left": 0.0,
-            "Top": 0.0,
-            "Right": 0.0,
-            "Bottom": 0.0
-          },
-          "Padding": {
-            "Left": 5.0,
-            "Top": 0.0,
-            "Right": 5.0,
-            "Bottom": 0.0
-          },
           "Border": ";;;;",
           "Text": "<font face=\"Arial\" size=\"36\"><text-align=\"Center\">Online Store Sales</text-align></font>",
           "Title": {
             "Text": "Text",
             "Visible": false
+          },
+          "DashboardInteraction": {
+            "Ident": "Text",
+            "OnHover": "ShowToolTip",
+            "OnClick": "OpenHyperlink",
+            "HyperlinkDestination": "NewTab"
           }
         },
         "1": {
@@ -175,11 +171,13 @@
           "Values": {
             "0": {
               "Ident": "ValueChartMeter",
+              "Key": "573b51413d824919b5d7e55c0577631f",
               "Expression": "Sum([Volume.Volume,inbillionsdollars])",
               "Label": "Volume, in billions dollars"
             },
             "1": {
               "Ident": "ValueChartMeter",
+              "Key": "09c714cd0e884d3c88bb691f734c8cda",
               "Expression": "Sum(Volume.Ratioofsalesgrowth)",
               "Label": "Ratio of sales growth",
               "SeriesType": "Line"
@@ -188,20 +186,20 @@
           "Arguments": {
             "0": {
               "Ident": "ArgumentChartMeter",
+              "Key": "39d8518ea20a4bac8d6b5f2c5a734237",
               "Expression": "Volume.YearID",
               "Label": "Year ID"
             }
           },
-          "TopN": {
-            "Mode": "None"
+          "DashboardInteraction": {
+            "Ident": "Chart",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab"
           },
           "Title": {
             "Text": "Chart",
             "Visible": false
-          },
-          "Layout": {
-            "FullScreenButton": true,
-            "SaveButton": true
           },
           "ArgumentFormat": {
             "Ident": "StiGeneralFormatService"
@@ -215,13 +213,13 @@
             "PositivePattern": 0
           },
           "XAxis": {
-            "Labels": {
-              "TextAlignment": "Right"
+            "Title": {
+              "Visible": false
             }
           },
           "YAxis": {
-            "Labels": {
-              "TextAlignment": "Right"
+            "Title": {
+              "Visible": false
             }
           },
           "Area": {
@@ -238,6 +236,9 @@
             "InterlacingVert": {
               "Color": "Transparent"
             }
+          },
+          "Labels": {
+            "Position": "None"
           }
         },
         "2": {
@@ -256,6 +257,12 @@
           "Title": {
             "Text": "Text",
             "Visible": false
+          },
+          "DashboardInteraction": {
+            "Ident": "Text",
+            "OnHover": "ShowToolTip",
+            "OnClick": "OpenHyperlink",
+            "HyperlinkDestination": "NewTab"
           }
         },
         "3": {
@@ -267,11 +274,13 @@
           "SelectionMode": "Multi",
           "NameMeter": {
             "Ident": "NameComboBoxMeter",
+            "Key": "bd305434ef674033a6367d450dd26ff7",
             "Expression": "Volume.Year",
             "Label": "Year"
           },
           "KeyMeter": {
             "Ident": "KeyComboBoxMeter",
+            "Key": "ff17d05510c24751a0624b688b7160c9",
             "Expression": "Volume.YearID",
             "Label": "YearID"
           }
@@ -282,22 +291,33 @@
           "Guid": "4407575c9dd84a18999269be8b25bb99",
           "ClientRectangle": "680,440,520,160",
           "Border": ";;;;",
+          "DashboardInteraction": {
+            "Ident": "Gauge",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab"
+          },
           "Value": {
             "Ident": "ValueGaugeMeter",
+            "Key": "6bdcf2e562724090884e783d48331d6e",
             "Expression": "Sum(RelativeShare.PC)",
             "Label": "PC"
           },
           "Series": {
             "Ident": "SeriesGaugeMeter",
+            "Key": "64a2d3f5aa9d4b5c8fdd521229c3c6eb",
             "Expression": "RelativeShare.Year",
             "Label": "Year"
           },
           "Title": {
             "Text": "PC"
           },
-          "Layout": {
-            "FullScreenButton": true,
-            "SaveButton": true
+          "ValueFormat": {
+            "Ident": "StiNumberFormatService",
+            "NegativePattern": 1,
+            "DecimalDigits": 0,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits, Abbreviation"
           }
         },
         "5": {
@@ -306,22 +326,33 @@
           "Guid": "973710aeebc84dcfa79265ffef1ecf9f",
           "ClientRectangle": "680,280,520,160",
           "Border": ";;;;",
+          "DashboardInteraction": {
+            "Ident": "Gauge",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab"
+          },
           "Value": {
             "Ident": "ValueGaugeMeter",
+            "Key": "7f5ee6aa6b6740a29f38346b350c7eaf",
             "Expression": "Sum(RelativeShare.Phone)",
             "Label": "Phone"
           },
           "Series": {
             "Ident": "SeriesGaugeMeter",
+            "Key": "994fbe0a861a4a9f9d3e64cecfd65220",
             "Expression": "RelativeShare.Year",
             "Label": "Year"
           },
           "Title": {
             "Text": "Phone"
           },
-          "Layout": {
-            "FullScreenButton": true,
-            "SaveButton": true
+          "ValueFormat": {
+            "Ident": "StiNumberFormatService",
+            "NegativePattern": 1,
+            "DecimalDigits": 0,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits, Abbreviation"
           }
         },
         "6": {
@@ -330,22 +361,33 @@
           "Guid": "e6a9605d0170492aa7d684204dab6e03",
           "ClientRectangle": "680,120,520,160",
           "Border": ";;;;",
+          "DashboardInteraction": {
+            "Ident": "Gauge",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab"
+          },
           "Value": {
             "Ident": "ValueGaugeMeter",
+            "Key": "a2a6f123def6407486118c4aa5ebf353",
             "Expression": "Sum(RelativeShare.Tablet)",
             "Label": "Tablet"
           },
           "Series": {
             "Ident": "SeriesGaugeMeter",
+            "Key": "ff3c050d1ec949fb8116434a5f28e87d",
             "Expression": "RelativeShare.Year",
             "Label": "Year"
           },
           "Title": {
             "Text": "Tablet"
           },
-          "Layout": {
-            "FullScreenButton": true,
-            "SaveButton": true
+          "ValueFormat": {
+            "Ident": "StiNumberFormatService",
+            "NegativePattern": 1,
+            "DecimalDigits": 0,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits, Abbreviation"
           }
         }
       },

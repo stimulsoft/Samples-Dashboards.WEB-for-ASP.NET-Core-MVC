@@ -1,10 +1,10 @@
 {
-  "ReportVersion": "2019.2.3.0",
-  "ReportGuid": "3fa588fe3a3e49d38365dd4a50cc8f26",
+  "ReportVersion": "2019.3.7.0",
+  "ReportGuid": "f789b2a0f136482196d3a3acb197ed8e",
   "ReportName": "DashboardSiteStatistics",
   "ReportAlias": "DashboardSiteStatistics",
   "ReportCreated": "/Date(1531223785358+0300)/",
-  "ReportChanged": "/Date(1556307524284+0300)/",
+  "ReportChanged": "/Date(1570449855871+0300)/",
   "EngineVersion": "EngineV2",
   "CalculationMode": "Interpretation",
   "ReportUnit": "Inches",
@@ -180,6 +180,12 @@
           "Title": {
             "Text": "Text",
             "Visible": false
+          },
+          "DashboardInteraction": {
+            "Ident": "Text",
+            "OnHover": "ShowToolTip",
+            "OnClick": "OpenHyperlink",
+            "HyperlinkDestination": "NewTab"
           }
         },
         "1": {
@@ -197,24 +203,28 @@
           "Values": {
             "0": {
               "Ident": "ValueChartMeter",
+              "Key": "d2fcf745186d4b4ba745737d1507af1b",
               "Expression": "Sum(DwellandRepeats.New)",
               "Label": "New",
               "SeriesType": "FunnelWeightedSlices"
             },
             "1": {
               "Ident": "ValueChartMeter",
+              "Key": "b6b95edc26fd486c9de72346dd7102df",
               "Expression": "Sum([DwellandRepeats.1Repeat])",
               "Label": "1 Repeat",
               "SeriesType": "FunnelWeightedSlices"
             },
             "2": {
               "Ident": "ValueChartMeter",
+              "Key": "0f56e9e37fa4488989287422633bde41",
               "Expression": "Sum([DwellandRepeats.2Repeats])",
               "Label": "2 Repeats",
               "SeriesType": "FunnelWeightedSlices"
             },
             "3": {
               "Ident": "ValueChartMeter",
+              "Key": "a3aa7ddc9001490d98c4373af64ab371",
               "Expression": "Sum([DwellandRepeats.3Repeats])",
               "Label": "3 Repeats",
               "SeriesType": "FunnelWeightedSlices"
@@ -223,12 +233,10 @@
           "Arguments": {
             "0": {
               "Ident": "ArgumentChartMeter",
+              "Key": "3492ed2028734f599bafb00f7315cf3c",
               "Expression": "DwellandRepeats.Date",
               "Label": "Date"
             }
-          },
-          "TopN": {
-            "Mode": "None"
           },
           "DashboardInteraction": {
             "Ident": "Chart",
@@ -280,6 +288,7 @@
           "Values": {
             "0": {
               "Ident": "ValueChartMeter",
+              "Key": "d12f3b1989314f0490098342db081712",
               "Expression": "Sum(DwellandRepeats.AverageTime)",
               "Label": "Average Time",
               "SeriesType": "Pie"
@@ -288,12 +297,10 @@
           "Arguments": {
             "0": {
               "Ident": "ArgumentChartMeter",
+              "Key": "513a127f4cc14f14a6bc929edf07ddc1",
               "Expression": "DwellandRepeats.Date",
               "Label": "Date"
             }
-          },
-          "TopN": {
-            "Mode": "None"
           },
           "DashboardInteraction": {
             "Ident": "Chart",
@@ -338,8 +345,11 @@
           "Guid": "f09215d6de794d859971fc12a960694c",
           "ClientRectangle": "0,40,600,160",
           "Border": ";;;;",
-          "TopN": {
-            "Mode": "None"
+          "DashboardInteraction": {
+            "Ident": "Indicator",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab"
           },
           "TextFormat": {
             "Ident": "StiNumberFormatService",
@@ -349,6 +359,7 @@
           },
           "Value": {
             "Ident": "ValueIndicatorMeter",
+            "Key": "1c9d6fcad69a4fe7a5048d99c26562e0",
             "Expression": "Sum(Visitors.Passers)",
             "Label": "Passers"
           },
@@ -357,7 +368,7 @@
             "Font": ";15.75;;"
           },
           "Font": ";13;;",
-          "Icon": "ManWoman"
+          "Icon": "Users"
         },
         "4": {
           "Ident": "StiIndicatorElement",
@@ -365,8 +376,11 @@
           "Guid": "b1b2bd55f8af4345abc88730aa998fb5",
           "ClientRectangle": "600,40,600,160",
           "Border": ";;;;",
-          "TopN": {
-            "Mode": "None"
+          "DashboardInteraction": {
+            "Ident": "Indicator",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab"
           },
           "TextFormat": {
             "Ident": "StiNumberFormatService",
@@ -376,6 +390,7 @@
           },
           "Value": {
             "Ident": "ValueIndicatorMeter",
+            "Key": "89bdd64e09fe4b109d72f12eead6ca9d",
             "Expression": "Sum(Visitors.Visitors)",
             "Label": "Visitors"
           },

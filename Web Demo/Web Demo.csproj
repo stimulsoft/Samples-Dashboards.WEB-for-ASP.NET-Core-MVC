@@ -6,8 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Dashboards.Web.NetCore" Version="2020.2.3" />
+    <PackageReference Include="Stimulsoft.Dashboards.Web.NetCore" Version="2020.3.1" />
     <PackageReference Include="Stimulsoft.Data.OData" Version="2020.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dashboards\" />
   </ItemGroup>
 
 </Project>

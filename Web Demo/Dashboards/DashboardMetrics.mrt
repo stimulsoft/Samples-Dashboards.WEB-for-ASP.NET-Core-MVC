@@ -1,10 +1,10 @@
 {
-  "ReportVersion": "2019.1.1.0",
-  "ReportGuid": "2ad64bf345c149228bbc98fd845de15c",
+  "ReportVersion": "2020.2.3.0",
+  "ReportGuid": "285158b9036a483bbd54c131e60efacb",
   "ReportName": "DashboardMetrics",
   "ReportAlias": "DashboardMetrics",
   "ReportCreated": "/Date(1531223785358+0300)/",
-  "ReportChanged": "/Date(1542199635926+0300)/",
+  "ReportChanged": "/Date(1590859345756+0300)/",
   "EngineVersion": "EngineV2",
   "CalculationMode": "Interpretation",
   "ReportUnit": "Inches",
@@ -33,6 +33,7 @@
         "Ident": "StiDataTableSource",
         "Name": "Tasks",
         "Alias": "Tasks",
+        "Key": "cb53c3e8202b4762b2a38962bfb7df17",
         "Columns": {
           "0": {
             "Name": "Category",
@@ -94,23 +95,17 @@
           "Name": "Text1",
           "Guid": "3d9d8a197d634129b476daf72f5feab5",
           "ClientRectangle": "0,0,1200,40",
-          "Margin": {
-            "Left": 0.0,
-            "Top": 0.0,
-            "Right": 0.0,
-            "Bottom": 0.0
-          },
-          "Padding": {
-            "Left": 5.0,
-            "Top": 0.0,
-            "Right": 0.0,
-            "Bottom": 0.0
-          },
           "Border": ";;;;",
           "Text": "<font face=\"Arial\" size=\"36\"><text-align=\"Center\">Metrics</text-align></font>",
           "Title": {
             "Text": "Text",
             "Visible": false
+          },
+          "DashboardInteraction": {
+            "Ident": "Text",
+            "OnHover": "ShowToolTip",
+            "OnClick": "OpenHyperlink",
+            "HyperlinkDestination": "NewTab"
           }
         },
         "1": {
@@ -122,18 +117,21 @@
           "Values": {
             "0": {
               "Ident": "ValueChartMeter",
+              "Key": "25c756b9644c49f08134b7723b6013af",
               "Expression": "Sum(Tasks.NotStartedTasks)",
               "Label": "Not Started Tasks",
               "SeriesType": "RadarArea"
             },
             "1": {
               "Ident": "ValueChartMeter",
+              "Key": "6fc0da85abf84fed983ee11204b3518e",
               "Expression": "Sum(Tasks.Tasksinprogress)",
               "Label": "Tasks in progress",
               "SeriesType": "RadarArea"
             },
             "2": {
               "Ident": "ValueChartMeter",
+              "Key": "a0ecf8ee1aac4741b2ee654c10566e90",
               "Expression": "Sum(Tasks.Completed)",
               "Label": "Completed",
               "SeriesType": "RadarArea"
@@ -142,20 +140,20 @@
           "Arguments": {
             "0": {
               "Ident": "ArgumentChartMeter",
+              "Key": "52f6f27fb47d434ba63461ab8604a261",
               "Expression": "Tasks.Category",
               "Label": "Category"
             }
           },
-          "TopN": {
-            "Mode": "None"
+          "DashboardInteraction": {
+            "Ident": "Chart",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab"
           },
           "Title": {
             "Text": "Chart",
             "Visible": false
-          },
-          "Layout": {
-            "FullScreenButton": true,
-            "SaveButton": true
           },
           "ArgumentFormat": {
             "Ident": "StiGeneralFormatService"
@@ -166,16 +164,6 @@
             "DecimalDigits": 0,
             "GroupSeparator": ",",
             "State": "DecimalDigits"
-          },
-          "XAxis": {
-            "Labels": {
-              "TextAlignment": "Right"
-            }
-          },
-          "YAxis": {
-            "Labels": {
-              "TextAlignment": "Right"
-            }
           },
           "Area": {
             "GridLinesHor": {
@@ -191,6 +179,9 @@
             "InterlacingVert": {
               "Color": "Transparent"
             }
+          },
+          "Labels": {
+            "Position": "None"
           }
         },
         "2": {
@@ -200,17 +191,27 @@
           "ClientRectangle": "960,440,240,160",
           "Border": ";;;;",
           "Type": "Linear",
+          "DashboardInteraction": {
+            "Ident": "Gauge",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab"
+          },
           "Value": {
             "Ident": "ValueGaugeMeter",
+            "Key": "43bc3fbf8ff44423becf2a22cdb2a056",
             "Expression": "Sum(Tasks.Total)",
             "Label": "Total"
           },
           "Title": {
             "Text": "Total Tasks"
           },
-          "Layout": {
-            "FullScreenButton": true,
-            "SaveButton": true
+          "ValueFormat": {
+            "Ident": "StiNumberFormatService",
+            "NegativePattern": 1,
+            "DecimalDigits": 0,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits, Abbreviation"
           }
         },
         "3": {
@@ -219,27 +220,29 @@
           "Guid": "d8564b9c2bec42fcb888fa7b5c06026c",
           "ClientRectangle": "0,440,320,160",
           "Border": ";;;;",
-          "TopN": {
-            "Mode": "None"
+          "DashboardInteraction": {
+            "Ident": "Progress",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab"
           },
           "Value": {
             "Ident": "ValueProgressMeter",
+            "Key": "84a7bc08333241688e669121ce4092eb",
             "Expression": "Sum(Tasks.Completed)",
             "Label": "Completed"
           },
           "Target": {
             "Ident": "TargetProgressMeter",
+            "Key": "6245aae1f59e4463af66f4f232fd1711",
             "Expression": "Sum(Tasks.Total)",
             "Label": "Total"
           },
           "Title": {
             "Text": "Completed Task"
           },
-          "Layout": {
-            "FullScreenButton": true,
-            "SaveButton": true
-          },
-          "Font": ";13;;"
+          "Font": ";13;;",
+          "ColorEach": true
         },
         "4": {
           "Ident": "StiProgressElement",
@@ -247,27 +250,29 @@
           "Guid": "c9725b0db3f74c55b7ccc99c99c87c0d",
           "ClientRectangle": "640,440,320,160",
           "Border": ";;;;",
-          "TopN": {
-            "Mode": "None"
+          "DashboardInteraction": {
+            "Ident": "Progress",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab"
           },
           "Value": {
             "Ident": "ValueProgressMeter",
+            "Key": "f3b76cc228b245b981e33e5bc711f9ac",
             "Expression": "Sum(Tasks.Tasksinprogress)",
             "Label": "Tasks in progress"
           },
           "Target": {
             "Ident": "TargetProgressMeter",
+            "Key": "cf130021dcc14c25a45e5dbe55b442ff",
             "Expression": "Sum(Tasks.Total)",
             "Label": "Total"
           },
           "Title": {
             "Text": "Tasks in Progress"
           },
-          "Layout": {
-            "FullScreenButton": true,
-            "SaveButton": true
-          },
-          "Font": ";13;;"
+          "Font": ";13;;",
+          "ColorEach": true
         },
         "5": {
           "Ident": "StiProgressElement",
@@ -275,27 +280,29 @@
           "Guid": "c68dbe0cb514423584712e28738819e5",
           "ClientRectangle": "320,440,320,160",
           "Border": ";;;;",
-          "TopN": {
-            "Mode": "None"
+          "DashboardInteraction": {
+            "Ident": "Progress",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab"
           },
           "Value": {
             "Ident": "ValueProgressMeter",
+            "Key": "aa5c4d2f390b498cbb15eeb48e29ceac",
             "Expression": "Sum(Tasks.NotStartedTasks)",
             "Label": "Not Started Tasks"
           },
           "Target": {
             "Ident": "TargetProgressMeter",
+            "Key": "fd9b9a45b9a74145ba7cdc469e2f3df9",
             "Expression": "Sum(Tasks.Total)",
             "Label": "Total"
           },
           "Title": {
             "Text": "Not Started Tasks"
           },
-          "Layout": {
-            "FullScreenButton": true,
-            "SaveButton": true
-          },
-          "Font": ";13;;"
+          "Font": ";13;;",
+          "ColorEach": true
         },
         "6": {
           "Ident": "StiComboBoxElement",
@@ -306,11 +313,13 @@
           "SelectionMode": "Multi",
           "NameMeter": {
             "Ident": "NameComboBoxMeter",
+            "Key": "57ce3122e3cb45179fcfa7fa16129902",
             "Expression": "Tasks.Category",
             "Label": "Category"
           },
           "KeyMeter": {
             "Ident": "KeyComboBoxMeter",
+            "Key": "f1524822f3a5469986286ef3f8c2d8ab",
             "Expression": "Tasks.Category",
             "Label": "Category"
           }
@@ -324,18 +333,21 @@
           "Values": {
             "0": {
               "Ident": "ValueChartMeter",
+              "Key": "93d4b5e70b254481ad6b8eba411c6db6",
               "Expression": "Sum(Tasks.Completed)",
               "Label": "Completed",
               "SeriesType": "SplineArea"
             },
             "1": {
               "Ident": "ValueChartMeter",
+              "Key": "2a4ca89847a849ddba8a8972e26e450d",
               "Expression": "Sum(Tasks.Tasksinprogress)",
               "Label": "Tasks in progress",
               "SeriesType": "SplineArea"
             },
             "2": {
               "Ident": "ValueChartMeter",
+              "Key": "f7e143094fa94abea3787f472ec2547a",
               "Expression": "Sum(Tasks.NotStartedTasks)",
               "Label": "Not Started Tasks",
               "SeriesType": "SplineArea"
@@ -344,20 +356,20 @@
           "Arguments": {
             "0": {
               "Ident": "ArgumentChartMeter",
+              "Key": "8f5debf44ed3402ea4dca6b1415d3471",
               "Expression": "Tasks.Category",
               "Label": "Category"
             }
           },
-          "TopN": {
-            "Mode": "None"
+          "DashboardInteraction": {
+            "Ident": "Chart",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab"
           },
           "Title": {
             "Text": "Chart",
             "Visible": false
-          },
-          "Layout": {
-            "FullScreenButton": true,
-            "SaveButton": true
           },
           "ArgumentFormat": {
             "Ident": "StiGeneralFormatService"
@@ -370,13 +382,13 @@
             "State": "DecimalDigits"
           },
           "XAxis": {
-            "Labels": {
-              "TextAlignment": "Right"
+            "Title": {
+              "Visible": false
             }
           },
           "YAxis": {
-            "Labels": {
-              "TextAlignment": "Right"
+            "Title": {
+              "Visible": false
             }
           },
           "Area": {
@@ -393,6 +405,9 @@
             "InterlacingVert": {
               "Color": "Transparent"
             }
+          },
+          "Labels": {
+            "Position": "None"
           }
         }
       },

@@ -55,6 +55,7 @@
       <BackColor>Transparent</BackColor>
       <Components isList="true" count="8">
         <RegionMap1 Ref="5" type="Stimulsoft.Dashboard.Components.RegionMap.StiRegionMapElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,60,720,320</ClientRectangle>
           <DataFilters isList="true" count="0" />
@@ -64,11 +65,11 @@
             <Expression>[2017.State]</Expression>
             <Key>0629e8bc444b4fc49dc28ecf345f4fd4</Key>
           </KeyMeter>
-          <Layout Ref="7" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <MapIdent>USA</MapIdent>
           <MapType>Heatmap</MapType>
           <Margin>3,3,3,3</Margin>
           <Name>RegionMap1</Name>
-          <NameMeter Ref="8" type="Stimulsoft.Dashboard.Components.RegionMap.StiNameMapMeter" isKey="true">
+          <NameMeter Ref="7" type="Stimulsoft.Dashboard.Components.RegionMap.StiNameMapMeter" isKey="true">
             <Expression>[2017.Site]</Expression>
             <Key>e2f82f06b8114bf1abd7f5f8f68e4403</Key>
           </NameMeter>
@@ -76,7 +77,7 @@
           <Page isRef="4" />
           <Parent isRef="4" />
           <ShowName>Short</ShowName>
-          <Title Ref="9" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="8" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -86,22 +87,23 @@
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <ValueMeter Ref="10" type="Stimulsoft.Dashboard.Components.RegionMap.StiValueMapMeter" isKey="true">
+          <ValueMeter Ref="9" type="Stimulsoft.Dashboard.Components.RegionMap.StiValueMapMeter" isKey="true">
             <Expression>[2017.MilesRun]</Expression>
             <Key>17157325108f438385a591a1d4fedad6</Key>
             <Label>Miles Run</Label>
           </ValueMeter>
         </RegionMap1>
-        <Table2017 Ref="11" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
+        <Table2017 Ref="10" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,380,720,220</ClientRectangle>
           <Columns isList="true" count="15">
-            <Item6 Ref="12" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+            <Item6 Ref="11" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
               <Expression>Sum([2017.#])</Expression>
               <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>6f0c8b6dba7d4fe6b38f039c59696347</Key>
-              <TextFormat Ref="13" type="NumberFormat" isKey="true">
+              <TextFormat Ref="12" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>1</NegativePattern>
@@ -109,127 +111,127 @@
                 <UseGroupSeparator>False</UseGroupSeparator>
               </TextFormat>
             </Item6>
-            <Item7 Ref="14" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+            <Item7 Ref="13" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
               <Expression>Sum([2017.AverageSpeed])</Expression>
               <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>9f14c66e8c5b4c05973e42949875619b</Key>
               <Label>Average Speed</Label>
-              <TextFormat Ref="15" type="NumberFormat" isKey="true">
+              <TextFormat Ref="14" type="NumberFormat" isKey="true">
                 <DecimalDigits>2</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>1</NegativePattern>
               </TextFormat>
             </Item7>
-            <Item8 Ref="16" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+            <Item8 Ref="15" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
               <Expression>Sum([2017.Cars])</Expression>
               <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>10de1e68e5064fc3b7c7e6a088c0ae6c</Key>
-              <TextFormat Ref="17" type="NumberFormat" isKey="true">
+              <TextFormat Ref="16" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>1</NegativePattern>
                 <State>DecimalDigits</State>
               </TextFormat>
             </Item8>
-            <Item9 Ref="18" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+            <Item9 Ref="17" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
               <Expression>Sum([2017.CautionFlagLaps])</Expression>
               <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>a6732709255f4c5a9947aceb49a85dbd</Key>
               <Label>Caution Flag Laps</Label>
-              <TextFormat Ref="19" type="NumberFormat" isKey="true">
+              <TextFormat Ref="18" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>1</NegativePattern>
                 <State>DecimalDigits</State>
               </TextFormat>
             </Item9>
-            <Item10 Ref="20" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+            <Item10 Ref="19" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
               <Expression>Sum([2017.CautionFlags])</Expression>
               <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>2ecd991680fe495f8a68db67c2a98048</Key>
               <Label>Caution Flags</Label>
-              <TextFormat Ref="21" type="NumberFormat" isKey="true">
+              <TextFormat Ref="20" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>1</NegativePattern>
                 <State>DecimalDigits</State>
               </TextFormat>
             </Item10>
-            <Item11 Ref="22" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+            <Item11 Ref="21" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
               <Expression>[2017.Date]</Expression>
               <ForeColor>Transparent</ForeColor>
               <HorAlignment>Center</HorAlignment>
               <Key>7eb3279960e74837a0773b1cbbcf1659</Key>
-              <TextFormat Ref="23" type="DateFormat" isKey="true" />
+              <TextFormat Ref="22" type="DateFormat" isKey="true" />
             </Item11>
-            <Item12 Ref="24" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+            <Item12 Ref="23" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
               <Expression>Sum([2017.LeadChanges])</Expression>
               <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>a2d11663410743e6b396a7ffa2088616</Key>
               <Label>Lead Changes</Label>
-              <TextFormat Ref="25" type="NumberFormat" isKey="true">
+              <TextFormat Ref="24" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>1</NegativePattern>
                 <State>DecimalDigits</State>
               </TextFormat>
             </Item12>
-            <Item13 Ref="26" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+            <Item13 Ref="25" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
               <Expression>Sum([2017.MilesRun])</Expression>
               <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>fbc32b2545fe4d01bf0a7bff4e67d9b4</Key>
               <Label>Miles Run</Label>
-              <TextFormat isRef="15" />
+              <TextFormat isRef="14" />
             </Item13>
-            <Item14 Ref="27" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+            <Item14 Ref="26" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
               <Expression>[2017.Model]</Expression>
               <ForeColor>Transparent</ForeColor>
               <Key>e00f19b6fc3f4d499aa2bf88c1b3f1d2</Key>
             </Item14>
-            <Item15 Ref="28" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+            <Item15 Ref="27" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
               <Expression>[2017.PoleSpeed]</Expression>
               <ForeColor>Transparent</ForeColor>
               <Key>8b29941ea4ff439d9dcc37333108883d</Key>
               <Label>Pole Speed</Label>
             </Item15>
-            <Item16 Ref="29" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+            <Item16 Ref="28" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
               <Expression>[2017.Site]</Expression>
               <ForeColor>Transparent</ForeColor>
               <Key>963518fa9ef54433a840b8541ea39184</Key>
             </Item16>
-            <Item17 Ref="30" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+            <Item17 Ref="29" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
               <Expression>Sum([2017.StartingPosition])</Expression>
               <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>17c160df55534792a0737bfb913d6760</Key>
               <Label>Starting Position</Label>
-              <TextFormat Ref="31" type="NumberFormat" isKey="true">
+              <TextFormat Ref="30" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
                 <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>1</NegativePattern>
                 <State>DecimalDigits</State>
               </TextFormat>
             </Item17>
-            <Item18 Ref="32" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+            <Item18 Ref="31" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
               <Expression>[2017.State]</Expression>
               <ForeColor>Transparent</ForeColor>
               <Key>523ed0520630490e9430ed3899e57fec</Key>
             </Item18>
-            <Item19 Ref="33" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+            <Item19 Ref="32" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
               <Expression>Sum([2017.TrackLength])</Expression>
               <ForeColor>Transparent</ForeColor>
               <HorAlignment>Right</HorAlignment>
               <Key>b5b362bb600b4a7882b3f559241d3429</Key>
               <Label>Track Length</Label>
-              <TextFormat isRef="15" />
+              <TextFormat isRef="14" />
             </Item19>
-            <Item20 Ref="34" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+            <Item20 Ref="33" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
               <Expression>[2017.Winners]</Expression>
               <ForeColor>Transparent</ForeColor>
               <Key>1ed30fb535924edd994eb9aee6d6c314</Key>
@@ -237,17 +239,18 @@
           </Columns>
           <DataFilters isList="true" count="0" />
           <Font>Arial,10</Font>
+          <FooterFont>Arial,10</FooterFont>
+          <FooterForeColor>Transparent</FooterForeColor>
           <ForeColor>Transparent</ForeColor>
           <Guid>e9d0b6fd1efb46228c044300c62061d7</Guid>
           <HeaderFont>Arial,10</HeaderFont>
           <HeaderForeColor>Transparent</HeaderForeColor>
-          <Layout Ref="35" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
           <Margin>3,3,3,3</Margin>
           <Name>Table2017</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
-          <Title Ref="36" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="34" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -260,14 +263,17 @@
           <UserFilters isList="true" count="0" />
           <UserSorts isList="true" count="0" />
         </Table2017>
-        <Gauge1 Ref="37" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+        <Gauge1 Ref="35" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>720,260,480,120</ClientRectangle>
           <DataFilters isList="true" count="0" />
           <Font>Arial,13</Font>
           <ForeColor>Transparent</ForeColor>
           <Guid>cd088d5a356b482191d2a4b7da276911</Guid>
-          <Layout Ref="38" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <Labels Ref="36" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeLabels" isKey="true">
+            <Visible>False</Visible>
+          </Labels>
           <Margin>3,3,3,3</Margin>
           <Maximum>100</Maximum>
           <Minimum>0</Minimum>
@@ -276,26 +282,30 @@
           <Page isRef="4" />
           <Parent isRef="4" />
           <Ranges isList="true" count="3">
-            <Item22 Ref="39" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+            <Item22 Ref="37" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
               <Color>Red</Color>
               <End>33</End>
+              <EndExpression>33</EndExpression>
             </Item22>
-            <Item23 Ref="40" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+            <Item23 Ref="38" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
               <Color>Yellow</Color>
               <End>66</End>
+              <EndExpression>66</EndExpression>
               <Start>33</Start>
+              <StartExpression>33</StartExpression>
             </Item23>
-            <Item24 Ref="41" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+            <Item24 Ref="39" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
               <Color>Green</Color>
               <Start>66</Start>
+              <StartExpression>66</StartExpression>
             </Item24>
           </Ranges>
           <RangeType>Color</RangeType>
-          <Series Ref="42" type="Stimulsoft.Dashboard.Components.Gauge.StiSeriesGaugeMeter" isKey="true">
+          <Series Ref="40" type="Stimulsoft.Dashboard.Components.Gauge.StiSeriesGaugeMeter" isKey="true">
             <Expression>[2017.Model]</Expression>
             <Key>6cca1ef45c814c4d815c9e10c3551209</Key>
           </Series>
-          <Title Ref="43" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="41" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -305,20 +315,30 @@
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="44" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <Value Ref="42" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
             <Expression>Sum([2017.PoleSpeed])</Expression>
             <Key>eee49479642b44a990def80cda1b4e37</Key>
             <Label>Pole Speed</Label>
           </Value>
+          <ValueFormat Ref="43" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
         </Gauge1>
-        <Gauge2 Ref="45" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+        <Gauge2 Ref="44" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>720,140,480,120</ClientRectangle>
           <DataFilters isList="true" count="0" />
           <Font>Arial,13</Font>
           <ForeColor>Transparent</ForeColor>
           <Guid>ed97aa73e97546d9b1370969738ec35e</Guid>
-          <Layout Ref="46" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <Labels Ref="45" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeLabels" isKey="true">
+            <Visible>False</Visible>
+          </Labels>
           <Margin>3,3,3,3</Margin>
           <Maximum>100</Maximum>
           <Minimum>0</Minimum>
@@ -327,26 +347,30 @@
           <Page isRef="4" />
           <Parent isRef="4" />
           <Ranges isList="true" count="3">
-            <Item26 Ref="47" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+            <Item26 Ref="46" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
               <Color>Red</Color>
               <End>33</End>
+              <EndExpression>33</EndExpression>
             </Item26>
-            <Item27 Ref="48" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+            <Item27 Ref="47" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
               <Color>Yellow</Color>
               <End>66</End>
+              <EndExpression>66</EndExpression>
               <Start>33</Start>
+              <StartExpression>33</StartExpression>
             </Item27>
-            <Item28 Ref="49" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
+            <Item28 Ref="48" type="Stimulsoft.Dashboard.Components.Gauge.StiGaugeRange" isKey="true">
               <Color>Green</Color>
               <Start>66</Start>
+              <StartExpression>66</StartExpression>
             </Item28>
           </Ranges>
           <RangeType>Color</RangeType>
-          <Series Ref="50" type="Stimulsoft.Dashboard.Components.Gauge.StiSeriesGaugeMeter" isKey="true">
+          <Series Ref="49" type="Stimulsoft.Dashboard.Components.Gauge.StiSeriesGaugeMeter" isKey="true">
             <Expression>[2017.Model]</Expression>
             <Key>3fdae6473e034355a33cabd65a6f3eb9</Key>
           </Series>
-          <Title Ref="51" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="50" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
@@ -356,13 +380,21 @@
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="52" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <Value Ref="51" type="Stimulsoft.Dashboard.Components.Gauge.StiValueGaugeMeter" isKey="true">
             <Expression>Sum([2017.AverageSpeed])</Expression>
             <Key>a8e61f0f21084527bbcd79eb6f91e889</Key>
             <Label>Average Speed</Label>
           </Value>
+          <ValueFormat Ref="52" type="NumberFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <State>DecimalDigits, Abbreviation</State>
+          </ValueFormat>
         </Gauge2>
         <Text1 Ref="53" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>0,0,1200,60</ClientRectangle>
           <ForeColor>Transparent</ForeColor>
@@ -382,12 +414,14 @@
           </Title>
         </Text1>
         <DatePicker1 Ref="55" type="Stimulsoft.Dashboard.Components.DatePicker.StiDatePickerElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>720,100,480,40</ClientRectangle>
           <DataFilters isList="true" count="0" />
           <Font>Arial,9.75</Font>
           <ForeColor>Transparent</ForeColor>
           <Guid>15c2d45f7d6146b6a186fbdf744a09d2</Guid>
+          <InitialRangeSelectionSource>Variable</InitialRangeSelectionSource>
           <Margin>3,3,3,3</Margin>
           <Name>DatePicker1</Name>
           <Padding>5,0,5,5</Padding>
@@ -401,6 +435,7 @@
           </ValueMeter>
         </DatePicker1>
         <Text2 Ref="58" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>720,60,480,40</ClientRectangle>
           <ForeColor>White</ForeColor>
@@ -420,6 +455,7 @@
           </Title>
         </Text2>
         <Indicator1 Ref="60" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
           <BackColor>Transparent</BackColor>
           <ClientRectangle>720,380,480,220</ClientRectangle>
           <DataFilters isList="true" count="0" />
@@ -429,35 +465,36 @@
           <Guid>d383699809e4405faee83ab56cb65491</Guid>
           <Icon>Flag</Icon>
           <IconSet>Square</IconSet>
-          <Layout Ref="61" type="Stimulsoft.Report.Dashboard.StiElementLayout" isKey="true" />
+          <IndicatorConditions isList="true" count="0" />
           <Margin>3,3,3,3</Margin>
           <Name>Indicator1</Name>
           <Padding>5,5,5,5</Padding>
           <Page isRef="4" />
           <Parent isRef="4" />
-          <Series Ref="62" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
+          <Series Ref="61" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
             <Expression>[2017.CautionFlagLaps]</Expression>
             <Key>f02b00149aa24d9e861d58a28a9430f7</Key>
             <Label>Caution Flag Laps</Label>
           </Series>
-          <TextFormat Ref="63" type="NumberFormat" isKey="true">
+          <TextFormat Ref="62" type="NumberFormat" isKey="true">
             <DecimalDigits>0</DecimalDigits>
             <GroupSeparator>,</GroupSeparator>
             <NegativePattern>1</NegativePattern>
             <State>DecimalDigits</State>
           </TextFormat>
-          <Title Ref="64" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+          <Title Ref="63" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
             <BackColor>Transparent</BackColor>
             <Font>Arial,15.75,Regular,Point,False,204</Font>
             <ForeColor>Transparent</ForeColor>
             <HorAlignment>Center</HorAlignment>
             <Text>Cauntion Flags by Race</Text>
           </Title>
-          <TopN Ref="65" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TopN Ref="64" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
           <TransformActions isList="true" count="0" />
           <TransformFilters isList="true" count="0" />
           <TransformSorts isList="true" count="0" />
-          <Value Ref="66" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+          <UserSorts isList="true" count="0" />
+          <Value Ref="65" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
             <Expression>Sum([2017.CautionFlagLaps])</Expression>
             <Key>cdb5564d3c70405f8a8dd77c39343cf1</Key>
             <Label>Caution Flag Laps</Label>
@@ -481,12 +518,13 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>DashboardNascar</ReportAlias>
-  <ReportChanged>6/7/2019 4:42:02 PM</ReportChanged>
+  <ReportChanged>6/17/2020 4:50:24 PM</ReportChanged>
   <ReportCreated>6/18/2018 2:05:14 PM</ReportCreated>
-  <ReportGuid>c5fbd992220d4beca7e9f1e13b0fa56b</ReportGuid>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Reports\CloudDesigner.Web\Reports\DashboardNascar.mrt</ReportFile>
+  <ReportGuid>c6c8fc31659d4c308bdfdfb99c657225</ReportGuid>
   <ReportName>DashboardNascar</ReportName>
   <ReportUnit>Inches</ReportUnit>
-  <ReportVersion>2019.3.1.0</ReportVersion>
+  <ReportVersion>2020.3.2.0</ReportVersion>
   <Script>using System;
 using System.Drawing;
 using System.Windows.Forms;

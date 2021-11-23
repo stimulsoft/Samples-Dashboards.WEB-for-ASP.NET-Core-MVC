@@ -4,12 +4,12 @@
 
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
-* Add Custom Function to the Designer
-* Edit Dashboard in the Designer
-* Export and Print Dashboard from Code
-* Register Data for Dashboard Template
-* Runtime Dashboard Creation
-* Show Dashboard in the Viewer
+* Adding a Custom Function to the Designer
+* Editing a Dashboard in the Designer
+* Exporting and Printing a Dashboard from Code
+* Registering a Data for the Dashboard
+* Creating Dashboard at Runtime
+* Showing a Dashboard in the Viewer
 * Using the Dashboard Theme on the Website
 * Web Demo
 * Working with Dashboards in macOS

@@ -22,7 +22,7 @@ namespace Edit_Dashboard_in_the_Designer.Controllers
         public IActionResult GetReport(string id)
         {
             var report = StiReport.CreateNewDashboard();
-            report.Load(StiNetCoreHelper.MapPath(this, $"Dashboards/{id}.mrt"));
+            report.Load(StiNetCoreHelper.MapPath(this, "/Dashboards/" + id + ".mrt"));
 
             return StiNetCoreDesigner.GetReportResult(this, report);
         }

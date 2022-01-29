@@ -53,7 +53,7 @@ namespace Show_Dashboard_in_the_Viewer.Controllers
         public IActionResult GetReport(string id)
         {
             var report = StiReport.CreateNewDashboard();
-            report.Load(StiNetCoreHelper.MapPath(this, $"Dashboards/{id}.mrt"));
+            report.Load(StiNetCoreHelper.MapPath(this, "/Dashboards/" + id + ".mrt"));
 
             return StiNetCoreViewer.GetReportResult(this, report);
         }

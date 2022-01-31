@@ -86,6 +86,24 @@ function createReportsButtons() {
                 "DashboardUserActivityStats": "User Activity Stats"
             }
 
+        },
+        {
+            category: "Real-life Dashboards",
+            reports: {
+                "DashboardAlibabaRevenue": "Alibaba Revenue",
+                "DashboardCarSalesInChina": "Car Sales in China",
+                "DashboardChinaConstructionBank": "China Construction Bank",
+                "DashboardEURUSDConversion": "EUR-USD Conversion",
+                "DashboardGDPOfChina": "GDP Of China",
+                "DashboardInternetApplicationTrendsInChina": "Internet Application Trends in China",
+                "DashboardManufactureInChina": "Manufacture in China",
+                "DashboardOPECOilProduction": "OPEC Oil Production",
+                "DashboardPhoneSalesInChina": "Phone Sales in China",
+                "DashboardTop50CountriesByUrbanization": "Top 50 Countries by Urbanization",
+                "DashboardTopOfExpensiveBuildingsInChina": "Top of Expensive Buildings in China",
+                "DashboardWorldElectricityConsumptionPerCapita": "World Electricity Consumption per Capita",
+                "DashboardUsersStatisticRegionalMap": "Users Statistic Regional Map"
+            }
         }
     ]
 

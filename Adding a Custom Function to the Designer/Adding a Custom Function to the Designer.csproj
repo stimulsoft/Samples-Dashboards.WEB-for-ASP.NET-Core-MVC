@@ -4,6 +4,6 @@
     <RootNamespace>Adding_a_Custom_Function_to_the_Designer</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Dashboards.Web.NetCore" Version="2022.4.2" />
+    <PackageReference Include="Stimulsoft.Dashboards.Web.NetCore" Version="2022.4.3" />
   </ItemGroup>
 </Project>

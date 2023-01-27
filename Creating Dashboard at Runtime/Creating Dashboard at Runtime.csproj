@@ -4,6 +4,6 @@
     <RootNamespace>Creating_Dashboard_at_Runtime</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Dashboards.Web.NetCore" Version="2023.1.5" />
+    <PackageReference Include="Stimulsoft.Dashboards.Web.NetCore" Version="2023.1.6" />
   </ItemGroup>
 </Project>

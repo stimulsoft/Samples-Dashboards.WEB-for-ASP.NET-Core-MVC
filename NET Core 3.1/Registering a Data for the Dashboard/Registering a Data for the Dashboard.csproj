@@ -4,6 +4,6 @@
     <RootNamespace>Registering_a_Data_for_the_Dashboard</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Dashboards.Web.NetCore" Version="2023.4.3" />
+    <PackageReference Include="Stimulsoft.Dashboards.Web.NetCore" Version="2023.4.4" />
   </ItemGroup>
 </Project>

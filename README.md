@@ -25,6 +25,7 @@ In order to start simply open the Visual Studio solution file in the IDE and run
 ## Other Web dashboard components
 * [ASP.NET](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET)
 * [ASP.NET MVC](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-MVC)
+* [ASP.NET Angular](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Angular)
 * [Blazor Server](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-Blazor-Server)
 * [Blazor WebAssembly](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-Blazor-WebAssembly)
 

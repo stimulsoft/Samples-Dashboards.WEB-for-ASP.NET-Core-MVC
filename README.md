@@ -1,23 +1,24 @@
 # ASP.NET Core MVC samples for Stimulsoft Dashboards.WEB
 
-#### This repository contains the source code of the examples of usage Stimulsoft Dashboards.WEB data visualization tool in the ASP.NET Core applications, using C# code and HTML5 components. Stimulsoft Dashboards.WEB data analysis tool and examples are compatible with .NET Core 3.1, .NET 5.0, .NET 6.0, and .NET 7.0 frameworks.
+#### This repository contains the source code of the examples of usage Stimulsoft Dashboards.WEB data visualization tool in the ASP.NET Core applications, using C# code and HTML5 components. Stimulsoft Dashboards.WEB data analysis tool and examples are compatible with .NET Core 3.1, .NET 5.0, .NET 6.0, .NET 7.0, and .NET 8.0 frameworks.
 
 ## Overview
 This repository contains a set of examples (Visual Studio projects), each in different folders:
-* [Adding a Custom Function to the Designer](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%206.0/Adding%20a%20Custom%20Function%20to%20the%20Designer)
-* [Creating Dashboard at Runtime](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%206.0/Creating%20Dashboard%20at%20Runtime)
-* [Editing a Dashboard in the Designer](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%206.0/Editing%20a%20Dashboard%20in%20the%20Designer)
-* [Exporting and Printing a Dashboard from Code](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%206.0/Exporting%20and%20Printing%20a%20Dashboard%20from%20Code)
-* [Registering a Data for the Dashboard](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%206.0/Registering%20a%20Data%20for%20the%20Dashboard)
-* [Showing a Dashboard in the Viewer](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%206.0/Showing%20a%20Dashboard%20in%20the%20Viewer)
-* [Using the Dashboard Theme on the Website](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%206.0/Using%20the%20Dashboard%20Theme%20on%20the%20Website)
-* [Web Demo](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%206.0/Web%20Demo)
+* [Adding a Custom Function to the Designer](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%208.0/Adding%20a%20Custom%20Function%20to%20the%20Designer)
+* [Creating Dashboard at Runtime](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%208.0/Creating%20Dashboard%20at%20Runtime)
+* [Editing a Dashboard in the Designer](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%208.0/Editing%20a%20Dashboard%20in%20the%20Designer)
+* [Exporting and Printing a Dashboard from Code](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%208.0/Exporting%20and%20Printing%20a%20Dashboard%20from%20Code)
+* [Registering a Data for the Dashboard](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%208.0/Registering%20a%20Data%20for%20the%20Dashboard)
+* [Showing a Dashboard in the Viewer](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%208.0/Showing%20a%20Dashboard%20in%20the%20Viewer)
+* [Using the Dashboard Theme on the Website](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%208.0/Using%20the%20Dashboard%20Theme%20on%20the%20Website)
+* [Web Demo](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%208.0/Web%20Demo)
 * [Working with Dashboards in macOS](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%20Core%203.1/Working%20with%20Dashboards%20in%20macOS)
 
 All examples are combined into Visual Studio solutions (.sln files). They are prepared only for LTS frameworks, any compatible ones can be selected in the project settings. Currently, projects are prepared for these frameworks:
 
 * [.NET Core 3.1](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%20Core%203.1)
 * [.NET 6.0](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%206.0)
+* [.NET 8.0](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Core/tree/master/NET%208.0)
 
 ## Running samples
 In order to start simply open the Visual Studio solution file in the IDE and run the required project as Startup Project. The required libraries will be automatically downloaded from the NuGet repository.

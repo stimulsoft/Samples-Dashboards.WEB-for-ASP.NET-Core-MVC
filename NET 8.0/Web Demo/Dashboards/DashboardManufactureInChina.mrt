@@ -1,0 +1,1058 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Culture isNull="true" />
+  <DashboardViewerSettings>ShowRefreshButton, ShowOpenButton, ShowFullScreenButton, ShowMenuButton, ShowEditButton, ShowReportSnapshots, ShowExports</DashboardViewerSettings>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <Manufacture_x0020_in_x0020_China Ref="2" type="Stimulsoft.Report.Dictionary.StiExcelDatabase" isKey="true">
+        <Alias>Manufacture in China</Alias>
+        <Key />
+        <Name>Manufacture in China</Name>
+        <PathData>resource://Manufacture in China</PathData>
+      </Manufacture_x0020_in_x0020_China>
+    </Databases>
+    <DataSources isList="true" count="1">
+      <Statistics Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Statistics</Alias>
+        <Columns isList="true" count="7">
+          <value>Cement_x0020_Consumption,System.Double</value>
+          <value>Cement_x0020_Consumption_x0020_Growth,System.Double</value>
+          <value>Construction_x0020_Machine,System.Double</value>
+          <value>Construction_x0020_Machine_x0020_Growth,System.Double</value>
+          <value>Metal_x0020_Construction_x0020_Component,System.Double</value>
+          <value>Metal_x0020_Construction_x0020_Component_x0020_Growth,System.Double</value>
+          <value>Year,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>1a93e6937cf34bbc924d968aa11ae8a8</Key>
+        <Name>Statistics</Name>
+        <NameInSource>Manufacture in China.Statistics</NameInSource>
+      </Statistics>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=Manufacture_x0020_in_x0020_China, Alias=Manufacture_x0020_in_x0020_China, Type=Excel, Content=_x0036_koG_x002B_eByijJ5_x002F_mEmWVb_x002B_MJEi2Z8FApxgBMjOhpXvxs9sNgZzvzer_x002B_OPZ7hcR6Eyt1TNx_x002B_d15eXiJ3m6RDOHmgiwucW6uyVVRYJwl2o0uZpytUxjZSHop_x002B_FzpMdxgoewJ4zFkiqsadW3GCtdamPdEnOw4o6EM_x002B_2if_x002B_vbhNZfXdkR_x002F_XCagF8pcJBF48HFmaD4IbrrsIq0O5AbNAIQoQ8LKuizHE_x002F_PBd72ScOP_x002F_5fIEP_x002F_sCGjO41F28mTRvQnTCPSi6qQyIWFmJwVw8_x002B_7nMF7gX0YFwRFJyldKP0O3CP3TnSHfqiEA8fkrU4ROR4hgSZEBhSHmrNofsMwH3VmDrUUyJVRRVDHQ8JK_x002F_yWZdXvQskMPTIEnJSUyiha_x002F_YNFDq7wzdG4fRn0PerU24v6iDfua7XyrvaI_x002B__x002F_Jpsg71fzBntFKZeIXkwHglyGocnuP88L6Jr2sErpGn8byEbdDXdi7ycecRpoLLMAufdfuL_x002B_kap1tuHy45a3M13B96b34yVhH7IDoRbilNVTN1QsUwq_x002F_46xJYgHyzPiGMPug8xh7qfYRaHU_x002B_sp1dlBIPPHUJkzbfaqL5gfuIAust92_x002B_oWrMKLk5OIpAke_x002F_jPwfyo5pdly1pu_x002B_nntolgU3DG_x002B_nd3BHQoESdLjB9pm6hLbSX9hkF_x002F_dpJxBPhbxwcA4XLopuaBvp_x002B_CmPCxIgSFphQji3hZMuKj5pkqvKtsAQ8FJtaaZsI7AAyGwJNCV4CRNF1zCRbFbecNP97VgvXEJbpdeCpN6HoExOLXZgd6Epc3kqehOOVK3o_x002B_czZRv2rb7V1VVplNCqY5MhHOmyWZSGKaLs7Cb21jIhcfqm24CGnrxYwtlIlESNk8bu_x002F_Y0DsIEqSFYTwqaw6ozWQjZPeh7C6pyGONNA_x002F_vglcq14kOeYct03KTqkBH41Z3o6HudoeAd_x002F_QG3PXIDm_x002F_q0kxutF8YUY9H8x37bDPWTH80PKqYU_x002F_Pef_x002F_JzR802RSKCc_x002F_7Umn1f_x002B_7zpqm_x002F_UbpHG1G_x002B_5mru7DV7zXybHDpI1rQt_x002B_Ut0hK5006MED8Hfa5ENXG4dfWJlxKZWmkNyrBW_x002F_ltnjY7EM2o0F_x002B_6xRblOw7fWyzig4ZmdOZX7FmjyWp6TCtrahl8WVRHjy03mwsaZLXdAXx61vKwhUIr0sq9r9lU6TYEqptQufuHpKbSrFka8y665cjAZHmT00_x002B_Nq18pFWBjxHK0YH59S0Hy8Pp7zcKNErtDW0z2LjVWThf7Bwhxc2oZ_x002B_nSpafzQbQyYQXgTFtLyvf1fjC6vHUJYky2rjHTbcxtGFDqTSjmAbIPw7lLzM4fkQZkxE5fTvfyHJJRctlaRX4wvRH8qn4NKkaBqe9z_x002F_hk0ootYvKQbdL0rw57EV52_x002B_f77KSyJx5z92R9V_x002B_Za1OOMi1fQrBZ0cv_x002F_dSqja5EgKYCTon_x002F_vYbviv09YwaLzoY4W2wkIakzYA_x002F_XnOQXxjuNmK1VPFSBRCbpBUd1jKmRhVQF3Y60qb4SMdERzrCHZBkjYzFuLFTEhqdCl01i3pzCvfxeHMFintGQFm7ATHShkiD6mNEwQsAyffSg3pyGrXZ2DaAisEwVVFLRwnJ_x002F_hPyYLJ6VLfgawTfrDEfUgpSn5kI9EPImAB38IsoQQzsyBGRbYezwT9EYyAhGI9t33_x002F_XalfCVjH8eURNkq_x002F_gq6K0SA36a1_x002F_YyZNoaqZxrwzKdOFZ3B6C3ZsQUWJShEuTeLwtD8reE6zme_x002B_qz1rNrg_x002B_biP2mAXfXBOH6N3qwr3DjDa6ThNDo7XjyHUXF8opLix6Z9psRYUhVxq6s_x002F_9yuGLWWPzgzHT7c1U2c4IgkxHzZI2JZLwy_x002F_MM5ury_x002B_OQd_x002F_4Qimm7EXDo4ssV597guOtxOK_x002F_bzdAx2xxIsH2mF098CskPhHE0UMcOnnn2_x002B_kOt3gCMZWAcaV0t3_x002B_0jV_x002B_W3TZCwFXXOT74K5_x002F_rHNlASyGzJR4_x002F_cE4RZqwy1FrUkX0F9kG19GiQHSJUJOLMJfEboxHkZevAF33jGHUm62Q4zg8ACVg1Yihyc7Db4Do1GyN77DweLus6r_x002B_HHhUsTrfWq6NKGvk4JM0AnFX0NDMZ4YFjURDuKUpfM9T75p5gLOw0Y0zf9W_x002B_XVK0SnySL7horIO0SmBpRbXOJT_x002B_GlURduKHx1SCn5_x002B_ns6qCGz4Evaoebdnkm_x002F_WYp_x002F_jUfok0OpShk4bPyC9DqBtQR7IwdMBgdU2HatbCO2_x002F_01y6OkeQjfow8o0rJDiDTUnOx1Jw2HE4lgmVV3uQUq9Eu6sO4Xhk1Y5mk1r_x002B_m9wtrC4_x002F_ovQB_x002F_QPJaNesF82w7IU3Lo9ecX9fzQxTD8d5FlT_x002F_FIjwwQFBjRwPwyAcwQKJzuB_x002B_JC8p3iSron0zwk4EMZIJwQp_x002F_pltan2sWajZoQ_x002B_2oX2kKGbgWNxIp3YrN3sqw1rkP7NRvpBxY3FrWkKGtC3nyfEDt0XkoYad_x002B_NQvcUBIVmXbAmjvlQ_x002B_V6kTOdVvrqAGv8l_x002B_SiHwhk9gS4zmW6Xb6AYCvTWhPT03xM5KVJzx990TMye_x002B_7UZYCbMvt_x002B_MUxIB_x002B_dq0cq8qwPeQ4f5tvzfTV4lqxY02kYYZ0tbfJHaceHMbi_x002B_A0XH_x002F_q04vVUvmqMdtMaah1M4HMH1Vd_x002F_G_x002B_aMb1yss9HMQinupKN4oLvVYnRj6fFAIm4bvZ1zH2jv2d_x002B_eHf_x002B_xd_x002F_QhiGDnvstS6MLUtjgurHK0ZwUXTHR_x002F_gMHzsL6H8ARbzgO2k6lw7YNdVqCxW_x002B_l9RlZ1xpiRzvxhx8Bc6Zy3y8HFX6oLAXvpimHSERUGmxzHM9o5ENCti_x002F_fmvdQDsQVVwvR5tUzBFKR2Qb1k23ps1gigZVG9hD61WIH4UyKb_x002F_GZIYrMu0o69oUspF2Majslh2Ps5AcNVxjkwIO14ExFwww76Zzwb9gVlqwOtSHzEa4HB4FByb_x002B_0TnSzVd_x002F_0cqmM5qgDFQskQH1cG9jTNbG6ccHYfGIjEtf2_x002B_gDK2upqAnaOyDBVEEADCXZgQK8UszuUOyzjBEEBxumW8zL5JyzzY2Ey1UYvGO3Ce4ZWLanVsMo0YHbsWFwSTOE21j5g9UIFoHgAxEjUi9yKvn1rDLkxtk5f6znh2UUjvfz66_x002B_7OhDuB_x002B__x002F_DBcXm7_x002F_itPF5MN3JSWH4RzttAu0uExXKrz8tvRuSLyFt0TWXGuxgym8rWPIWiAzvotGDN8CsmX6iedmGIBbElYTeobf8RYs_x002F_aiX6QiLA2z6_x002B_Z4acBBUy1rlslBfncFYQBRnCtu3FduG9nlAnLH2WQLCcLPz7I2_x002F_axDnnhrFpADXDqhN_x002B_QWsDoNaCge_x002F_MQRBE7v2NmXAyD67ohmrVExPCs31uhWYpqPmEJD4aALYR6QKsce2bW5auUayQGTFqPOzKEzEY1HxKhuLMuTWfIznVUiQK1hCtx2IfkN854xEqNiT8XjrHukf_x002B_srKYlkR9J8elhmhB_x002F_ucKuMkvOVDpD1_x002F_lHX09RBehxI3i4oBoySntxMXeA8hRp8BGXQzwVUIcBQH7lg_x002F_JaQUUrSVQW1C6HRqPESTtn_x002B_t3i0vqCERVPrBYH4wMuYx7bSTnGTQv_x002F_X7VwsfOn6WUtb5LeFVrtVsCUhCvKG6UtsUfRSTTHFnO034YRSiHKCNnFrGoVC_x002F_7oEjvhzTr8MhexmllTvfj4_x002F_6_x002B_N6YXNBwbC0j_x002B_zq_x002F_ppHcqxr9I4u3wjDTQUAlevLuUcdeI50h7e_x002F_XSMmZoayLh8RU0G3EU0v_x002F_gMrVlBescytnR_x002F_0hXEpG67TNYi_x002B__x002F_KO_x002B_f45GdOjTDjMtgxCztUE4UR_x002F_2ui3I2pD_x002F_83HQ1TNby_x002B_JdFmbq52_x002F_4WkMuPnDLEbkuC6V3iByYWduW_x002F_Swcvee3ST6jGjDzsKUlinI7mNC6dwILSWIL81rGpimyS8QIg9R9_x002B_W_x002F_fyd8k4U9g_x002F_GXbHxADAY5onhq3Eqv2Zo9xv5YnYu_x002B_oM4ITGPED3bvKlbkMO1nLPkOjlSKC7daFR_x002F_eYzXyyo4heoIBtWkAyk7SUQh3TkD56LvJfDTPKDnsUXzXmKRe0ijsjL1hF0U9_x002F_zydmCsHBQ8Zxegl1kcrak0i_x002F_uoR8boiBwDFyL_x002B_UXpaF1K_x002F_xB0fTWmsplaiQQ4ydHlJuU8TzCH7gSRNP7ZJOYOImO83fYUmCCKNy1fE8pNsoQev7aQZlewqzsE90zR_x002F_4AAW4_x002B_gndFgDxR6Rmw4gq3ozc5G4jGXiARGxChQupzvLClXYAeNvKjmGqoOl0j6CUO7MRwiApVeNMbpryl6aDs_x002F_i9WXqOzsfxDNe0wvTFeA_x002B_VRjEEmiYtbmpRsnWH_x002F_y8_x002B_8NXwZvJXor2F1NeFRqTjEKD6SxKGY_x002B_MDFcosajqr9_x002B_pM5XBsVcPIn0iwtPjbI7c8CEb_x002B_U4dZtOXeot3SLFye9jW1LSnV9DdDf1Vn_x002B_tT5eeD6t8UdsCUHGS0pAGe1zVBCJOvzEAl2PCprvPesICIkxU3TVkzYuTzjeToB3grrHlFiU5Kb3lLc0kvP9JPccjNXXTZhIs2OVHz5hLa0J5vpcoOpYsDVbzos81Ccprg_x002F__x002F_ucSp_x002F_gqTQLZtaiN7KJd7y5aHpzbdQlBHdCdGLHXsPA7Xqb_x002B_a6rJvEWP1f7n0VTN4N179zVVLCyM1F4dz7YSmKYVTOKVcLE43t6b3zEW8JzomF9VHuynd9Ag2obCOTXAg7LMK_x002F_p017zdveeo388pBQtuNzn2i3maCOW_x002F_Y39y2mAU6syn9C_x002B_CD4TxKGzrUYVZLHV_x002B_h3mbh5kr_x002B_GZrt4aXGPfuR06TuqGHr3bsbeOKNRgrp7YlHtCpWFcoG_x002B_QPl1KZoemBZdlESqlRyKEl1BE9tsS7_x002F_uDEktNEhnAk9nqXmxw2U3YD5aK9IuY8B_x002B_ZOwQzb7TRp_x002B_4E7hZvgbO9t6XGvviwjfRasKbaqlxzyH629UXXOcWMjAxBbdw_x002F_Y4u5iX3vIylzBqUdrgzS6UcHYjceuWd3MvhRmWWc4IJUscQvfaWjdScJWiWhZtRVC1sNjPeABw6rpQa0TS2txGwhPDJGm9vHO55U0mmm8IELK_x002B_jCRCLy5NVBt96RRgKKdlqmbAgX2m_x002B__x002F_lo9lgHBZCOKkoS8kFiaw8lcjhnz_x002F_crzkSc_x002B_2eTNaUSA2z_x002F_BKPsNkuEHpiQlJizisjHlxVxlcNoGELSf53gjIc5baD4Y99wxeYIZHYibi92TcTK8bypoAakcxxZOhlKXdB1lupDFuSfLagDCVPUAKy_x002B_n_x002B_QiKpugcOlSp1SfnwdFiDKYVtqRHosWUnI4aCnn7je4S39hH7o4UH4QQ3t6SH3knKLnmwktoc2H_x002B_UxBJaN4DiHHRPhVpc1Gg6mY3dSFw9HKlyGFfj5PhrautMiFX96glPQUgvroWwE3ICLHJRaEg_x002B_r4kBDaLr8h7_x002F_4u3ErWwVpjod8IO5KlIh6HCar_x002F_SiLYL_x002B_PGfCQWcbGG9I8q_x002B_K1esMvYHaZhWyPxwco8D_x002B_RrDssm59Ex7bj5_x002B_Px6zUomLSMyuhg07REghPO_x002B_rxT5QSjnLkyiYwqOEjjdAWYbrx_x002F_rdXEOwlJDWaTGz72wzmF1CUpMnUY1dEE_x002F_u7k2OMv_x002F_LiOYOGTvMqCpwbx2IwiORGlOx_x002B_EH94tHE_x002F_HNq7m_x002B_GGR6WFwEUuLR1U93zh22rfSMITQGi2p7Vxmd_x002F_bnem6oPK_x002B_Ao_x002F_DoIBNVXYB3MbSms5dqGPVrU9ek_x002B_u9VH5i4AQ8AygyUs3xh3RncLQiq9A4wJuVRC_x002F_99EkEJeK38rJaqA91YuXAY9Ztn621RyU9FSKJWf0MvKXAilPg8rqSTfxsv2BdLwdJ0EB0RKN9zTOI9Jt2Rg7McymfhKb_x002F_3W1CapaBr7EFR_x002F_ZTxDlczAJqQh5eXmOhzRa2lSCf6mmjF_x002F_Qm8FmftU93RrWW_x002B_VGzj6eTWa20ZVJBe_x002B_9OHDFCvmNAUhTUtVSOYGvCgsv8B9VhD7R_x002F_MOXWyM_x002F_rFUfXQSD6JmByemTb8ZWs6Qp8_x002B_yhGRtULzEifRDRPVO9UDbWdFoq5Ttu9zBlbgXpMnJQPrPpLHKEfeLxlC0LpT_x002B_lwHaQ7dLsigHrA6tm3vJxaTHgKnEeU13w6BfPY4up2y_x002F__x002F_Nztt9OLnXkKD2IsrBqZjbE_x002F_FDEUIZ_x002B_F8Khrm5lCir5VMsvtjgNheMXqrjOlwXswSgsP67zQ3b4nYAqpqY7_x002F_d0XbJm624zcis3XmEUpwPRorEZ9WLouT83g9O1C9_x002F_sEsd4RUwEJ9IdJry8BnLMIIgOxhPVPwEaQyYnIh67rip4SyhCS_x002B_1MCbjCbsq03qs6xaIPRf8yU_x002B_Sm94g5zk5gIGpnlsCuoZYE4FpWx_x002F_rHSEwoGRkAFsOZe0BIQgOPnzXUtAIA0rSsAF_x002F_Py1ewZ4XDQo3gXMKFN9C9H3kS1rFTGvVJvT8Ie9aZggLha10Rhl9VopJgdM2PaYZVNHt4dcLB7zkRtEX0s57Amc7o6holXU5FWvMQvrUuAun3LpZrncIGLz3f397eb56B3kFHQZFHMvnKSx4zQISX06VJR6WyXPtpx3bzKmjEc_x002F_rpgdYLOYDMWbFvswgrTCmAEl1lTW9EQ2sJzjiMCJNddH7z5FAiPnx6oqXRodREF3QII0mSO07gCfHgoQB4bJiKHb8VzJVdGCtd35VETV2_x002F_sWLVL7QBx34gfFQZI1FmwmP7ygXsrVbH_x002F_D1I3A1mX9fRD9T9HVf0jg_x002F_3BabKkYiFbT1NdpusISOGYTnVmreRZ11my5kRT9BG1o_x002F_EHy_x002B_bvQ6zdliVliZbZ03BQVys_x002B_maQZr9YiCBcbBDWEkxXp_x002F_9hQx_x002F_z8jXB9y85aqWvnST5gS8tBRFQ7RECROOTczq5h91y0wNZ3sUyDncXWu3AM9fcTDZDj6eP6xMcSkIPksSCLAcU4QJTc8zHPn_x002B_agJVCo_x002B_Bncp_x002B_GP9KgI0V3aRJbntLLnW7otoiWT3tPqbdHXoFdDubG_x002F_Za_x002B_fcF_x002B_h3dsjR2cvD64Vj5MKKSNcsEYINS6J92tXaoT0xdC49Z_x002F__x002F_yUZpgr0R5_x002F_jq_x002B_J0SbbK3fbEG7AxPO0oRseLX511_x002B_r3yIUlBLDw4gbUUflpKKBw3nehL_x002B_XHYSBWLDZlSa9tIFxqC5AtQv21qxS6N3xMhghq_x002F_typ3JxFEBtD6w6HoP_x002B_mYCjtU0BXd7mZpdyKrXbH1pqiA8Araxx_x002F_VxsB75hOz_x002F_vy2HpzsI7Pkx_x002F_op6ONgKrCtYp_x002B_dix5QlxotCycHWHtWMp0koY_x002B_24eLUu1SXHA7aY0NsdzhNMmawu8G0KTxz0M_x002B_t2DMago71qs4x8ftMwaNkW9Yo8bBXLW6XV8750NkvSJ11Hp12jjYOyppE0btzX3oXDB3lU55NUREmNOFFXAV_x002F_942MH0aHqI7AjlM0xf04JtLiJMG18kE7XqUrivm79wu0OdJbCzAIOD5hh3sOiTRyzNlVRpSaPnDQHC_x002B_cWHZRCOJ7W64VmjB6CWR2n2Gov5hZcdxcCtmwDtTi12Khce3hTWEn98joyL53L5XBIcthbZFKSiZOU7_x002B_rcXf6DVPN_x002B_CYOWSijyVkvYAzvqKAz62c_x002B_A8RuQprLiOKw0izgKrDU0EZAhUChk6zuEAXlbgziL4mw2FkNekm6h1oUunptx9_x002F_sYN8JRpLBx_x002B_mAHznHdUE_x002F_XcMaGwXbmpTffXi8DUDD4Q1_x002F_Amr9zHbNQvS40GgnaRyCazb6zWEC4_x002F_fEFN18DfRL8zDLnDmjEjzziaUpPxHvvD0qdTZDtdfg1xJH_x002B_FetOoxoj4lpXh_x002B_OFJFKsJL91PSKODswy9Ht4_x002B_8RZ5UB78qh29YNYPGIqG9hiUJW879TPhcLn4dwp9L9Yj0_x002F_lt_x002B_QJ5ZsCW_x002F_6VQV3b30ojFpoCpdFJHjyg5t08Ukjdd4P6n_x002F_3_x002B_pAvtoo9kRTbAC_x002F_hpFdk7buyqG_x002B_IEq8gZR2BNxBcPifvCWUvLGNfX8D85_x002F_r5zHmNovK_x002B_FYLcXUjxor9ttWvn4JyovzlkgbCJe0nfETNM3FasU_x002B_RI_x002B__x002B_EigbRv4xWhKb4cDjnBENXuCuNNKk9BwkWefXgVxX5tmeTZ1FN5HL0hTzKFksm_x002B_7QNJall4APhxnIlPkfMz9dtcjgsMwx_x002F_p0BVoqj8b9FNQf96Bxmt6t7XSS6ngW05gPWDA_x002B_7KhW3ou7ilICqB1K3_x002F_jkDWvmz3a6av3P6TuYfixxZK1xlx860293Y2XGHrzMv92VZ1BEUCGIw1F6_x002F_a_x002B_9g1cXUxQ_x002F_91dE5T1I_x002B_rwegHoB0loQRrIlCXwgqpnO4O3dNP751IJO4jDF_x002F_jjoAbsttTyTMKtUwVmPZnFDNf4UC9d7IfvQQLZ57Yb8Aq713gl0QcIMym9z5didAZgN8gl_x002B_ueeSQ2apsdRF4jQ4BfZZtr4FDxEuZVlKZlRhAGlSDSR_x002B_jWoCEeaHk9iGINeJ7GNqnknkpPAUePl3unJNzjy16_x002F_cRDDlmfTV36_x002B_lkgnoyVPcneB4zOAby15YnQyLmUU3l1VnrX2IFWNQhcJNFD0kezsuYVhB8EBiRXBt0cVFeFSwSMOn_x002B_Tzn_x002B_Fj_x002F_ZRekyFHkuS4g_x002B_jI2H9sEsRYWSHbNH8FnN6LqKBD8bAJYD8HtFsTiaoKatSQ9Lo56Cnvys32bBmiNzjHwpehxI2CRaoKaik_x002F_k0AmEy0KkTYQ42cCqADaYgFtPXHeX_x002B_VmzecsXCHUhyMVI52oHn8sepVAya0DfsUqDkV589ty5Qbd6k08Of09eOZnKWIff1A7mTiDpIuOjwgLRf7ep6SXMkoU7P6e3b_x002B_9zRjCmz01ZA_x002B_rtr3wSdfM6v8oBtGoj5dnM3KXy2g5qGD5P1iYfXNEUpYs8OqcXM3Bl8h7g6Eu4IbuRDY3twB5ZRnJDHcxUJcq1MmoX2qsih5I2al6pQKavm6hASvGkartxoVrPWnry4vjWhd65npykGHPEsVbzQHl5k2TlJnqkdB4GvjkHUiCxnoz9ztFOVjTSXXIwM1_x002F_AVy7Migz3t7CL9X34oQYODp_x002F_eLd0qi4ioRzNnxRw4WQPT9KhKDne0NtNBGe9cY9aAy0JKqwh_x002B_0KEgW6u3LVd45v_x002B_bzVz_x002F_tvzIMpDzBYn01CV7YJt2aqh1OAqA_x002B_tC4nn3Tgs_x002B_nJD_x002F_oPT3TwfBy9BKTnSC5F_x002F_TRnM5zDBhHQ9Q40n_x002F_PmsONwMtvEdG_x002F_oKrNXjzyAM0mXQnEMiiDQHJHrWMrgqUpDARu5s8h6M_x002F_MZfCEVG2WKEluTYHyp2lJbJeozflv1kAvNPtal5ZPhVhexLwH_x002B_eV_x002B_5xkEPQReRMboEp2E7Wl_x002F_6fpqm_x002F_f8DzAkAOievE_x002B_OnGP0WOP7_x002F_hAA8HV4gJSo3t2H69G_x002F_aj8H9r8uD7pD41IAEJc3t3I_x002F_Pa_x002F_a0eoOc_x002B_dRE7nUs6qi97N_x002B_AKCwXDpc6RRUiNZch0MapIU3ImiTxshkAmTYsIpbAL4ogAgUCF55N44fOR7C29aHCusUIc9DF8U6kECsQmrs3Se0h_x002B_nHs454nOxKdFdsZEZzSoXSSly_x002F_hjz6mlSVLZhSb7j5zwnp2Wy90adOMjLnBiBVSWSEi02_x002F_vWahG3uaHZQ4HdnX8AMryL6xfFTHmK0vZmrWloZuH2bEw9M2OVH90lYTVVAEUz6MTHRMgC6rMc0_x002B_0Q0I9YTxXdL_x002F_Iyh6PvnZVL38ZT1hDgnLQrZVRmzw0dm4ag1OJjNTf5N_x002F_Im7AGpKhTUNbeb2aAevYs3dusmyzgbytOGbDSg0pll5gJRV0TsTif1eAwwcVYdZt42_x002B_TKxnofzXXIoA9TW_x002B_8Dd9aZPD1iebt5X5J_x002B_YcsxVAu_x002F_1OA81_x002F_8mS9xdD2qRJUyqPW01VYrJEoVf2z1U2rCyX4qdkHtBVJX9mmFe1odfhAEIQ17SIH_x002B_mV2xF9s6G6hzkGV2VsjwR_x002B_MtcUixh0wzj6dc_x002B_k3Svoe5p27gxi4fllsJfSo9uEKeOe0FR87SfCxMaVVBb7Mg0ECFKICfYVb0CQaPMl1YoegOkVsLu928A0cZankAJ9jbo7xyw4NmUva0UgbFioVjRnZw2zYerbIRRTwcnYB5yZapLicDBPfpHdjQS_x002F_irRqx6Bh_x002B_qvCRy8q_x002B_NNbnES8Nxa7fUk0SkBvtlH_x002F_5V6H88qDhxTN3KLJdJfXyj2mMsxab4NNoj1DjUodjvCxkKhxR_x002B_hftJU7fbQ8B_x002F_haX_x002F_VnXnAUNC2wKjzxGFJE2Yy2_x002F_xjXfSFE6nKhfjpTuxVhkNClo_x002B_5tHtf5Hbgf54jWXandZkVlfE2LoDpTaRh4iDmWQfdWvZtQ72fit9kVXkDpV6EM_x002F_LJXcp98tyNs_x002B_3HRnnJarwPJWQysNlL5Byp6zP3w5ZgIN_x002B_jNTTp_x002F_fo9QcUYS6bDpXrtHu6DAMuh7kPs9459ddhYfQnoObK3B08PgFa1NjOx8d_x002B_4fpsTnwfgs0KzGEFYWQTdqj_x002B_G2fZZZvZ_x002B_3lFJWTeEABAbg0sDUIFPTxAReIEawDNXEGt8jwEahBE0rSmpC5w4Lp3pGhyNUElO49PN5B2gcwQDbNJuuhUMsbakj7qNChwSQU8OGZCDaX1hn8NoCcUDNTmWuicBy4gvK2T86mjxHTyYKVT_x002F_L_x002F_8vs0uuVTAsPL983Cwy7C9ZwA1HQsePLAUrQBZxVfjfsLqG1JkIibHNdEzo6X_x002F_zNWdYMszgtUdeQO4P0TzHan15b0MD_x002F_YR5v8adpSlVfjK4nSO2iCIlj1ee4ZDfvRqw_x002F_OfvOXQtEBAacUG5aDlPl1Eknj2E5PewihHH_x002B_stq22t3Toxw9KIU2sGiKIRbOlGEJg7_x002F_v_x002B_AMaQrzl2LRj_x002F_k2gwOaB80XvtNh9bKspEf_x002F_ktADQNSZAHVMFWf8pGWQ3gWrkqcbZfd6QMxHHP3CTL7p9XKRxyK76x4LfIVAlcA35RTVoxUX1PQIfowmeNAGOQC8FfGVlJUse2K016mko8fZxl_x002B_FZwO8jeCNK2BSLOsoHGdb3ZzW7J4HAXCPHlXSS_x002B_HafPR0tO4wEzcpwXug7_x002F_T0AKONq8QB8jxMFUf6_x002F_ayXz7xc9jP1v_x002F_q2bdSVO640R7hl_x002F_ZA_x002B_qckadC_x002B_WPDixQWoj0yHOqodDXB_x002B_m9FD68YdGeiDyU62Zdb0JBc2ycRTcdYjbv1Hl_x002B_2p6eIHkEXuAldkgEl48RAj88tzkfTfzcwv5OARf797iVsWMtJBuyjxl2SHQ63PzB0SWIcqkrupRHQkBATxNSM_x002B_h1XDrLR3ofjwUlConVXxo24nlnpLq48q2kH_x002F_9xNj9QUSj_x002B_hKA9kl_x002B_uuvSdxlXGXapdUoft4EZ0L_x002B_co2EkPlc8ErwYNPCNeGeuRN1Ucd0FBEajTLWgB8zJGW_x002F_TqyBSA_x002F_ch6X3ShLbU3sb4QARYPH71_x002B_mtz2cF_x002F_a_x002B_Q3Zl1tCaU02RFFWZ7nwk_x002B_J5vy6fY_x002B_OXAG78P6lTuzuv5gL5ymRtx1YzCLuXgcj9wySffbIt1SPBXMxjeFICpCNhdRPbJH_x002B_DuMMzsbmTIwoBW3GZLWUZ81VGTRLWWA5AKAgTY_x002B_31PRHxxGcWevASM2n5vn4GwkyO5juF2glen8zSTncxPBb_x002B_lQpnWGZwwiVhVXCPqc0hjG15FxpaDFegaliXSn6QRLK3vrftdukL_x002B_YQPNoqusUdScIY_x002F_lprDkZocaMVkJxQaABNgKPD2BWctNhUn32gwgMH_x002F_D_x002B_zlHdiX91QvHB4TLk5fm00D0sUawg3V41PQqTi1MRY7CdE_x002F_ec8CgpbMhe0IpHSmThQKuX07TNx8DUn0qMsQmuAlG9vnlRCnfyTviHyFzGoae_x002F__x002F__x002F_y_x002B_NUC1PDS8FcuJJlGvk087loNKLqs0rv1cpGRqFufIG_x002B_jsx8sITPCPB3iV6hlkxwITjytXLaLkAYvFIyHGE_x002F_s_x002F_hfhS3b1CoWnhWRExqZL8fFd88A1m67O1dn2wFt9JcqlKMHYXH47NPpZY83QG_x002F_ncO18cUycX4L2EypJYE5OQvhdfFE4UCyIEtaH980SNYK_x002B_F14Aj2BXe6c_x002F_L1MDz0sQ0O7SABH_x002F_pXAx3ZVBRsab5TADnwV_x002F_qx3W_x002B_6QJgkdTShjTeFgkzpXPiC8Nz68S4OUVhkkk34Y0Y0xrmHRbmhY_x002F_ygsbvGEcPPX7mV_x002F_WDsUd21UDpVr_x002F_1djYJPioHqhj5vRHcbKUZaVjaUeZqXJ14EW_x002F_vsLQmCgM0F6wHST5urbtiVQt2gwyiKCZnCMDjgIFyOiXsiiXYNWF3I5WuZ4b7R8JVOYJ9kwc_x002F_YIKhVAnINw3K98GN67CjIVAbmQP5GXBf1rvrD8O2juL_x002F_CPLTQgy9tcvPImz9wyu_x002B_IK8SpF3M6eSV5zYzsBkUNvH03U6jyF4fHwRCQGhjQmQDQWLMmUWBly4RBi302ieJZGppTiy5dBybADe6n1Zqjz1_x002F_ahpGhHff6pxuNuho_x002B_fQu73dpz2uYZXrbHUjucTE5fTQvqLoB6HuhM5UrnohHU9XzusM2Z_x002B_qIRx4SKHGelfFWFbM5vVxCbbrOcGzr_x002B_pDyo2P2rMgzByBmm_x002F_RDCbsPxlrHUG0AOH7ROuAZ1thvcMF1WxSwLTOtx49R5PIOP3RKHV8J7Cat1tUPRqH8vSQsP8J4CEuq5Ufp8zv_x002F_W_x002B_WocmFnlH7iRXKe_x002F_D4LDVsuuTA_x003D_</value>
+    </Resources>
+    <UserFunctions isList="true" count="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>c6cef0a097e34892ad02b80eebc20db0</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Dashboard1 Ref="4" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+      <AltSize>480,800</AltSize>
+      <BackColor>Transparent</BackColor>
+      <Components isList="true" count="6">
+        <Text1 Ref="5" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,480,40</AltClientRectangle>
+          <AltTitleVisible>False</AltTitleVisible>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,0,1200,40</ClientRectangle>
+          <Expressions isList="true" count="0" />
+          <ForeColor>Transparent</ForeColor>
+          <Guid>88e61477288447c7a0b197eb4f171584</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text1</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <SizeMode>Fit</SizeMode>
+          <Text>&lt;font face="Arial" size="36"&gt;&lt;text-align="Center"&gt;&lt;b&gt;Manufacture In China&lt;/b&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="6" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Text</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text1>
+        <Chart1 Ref="7" type="Stimulsoft.Dashboard.Components.Chart.StiChartElement" isKey="true">
+          <AltClientRectangle>0,40,480,240</AltClientRectangle>
+          <AltTitleVisible>False</AltTitleVisible>
+          <Area Ref="8" type="Stimulsoft.Dashboard.Components.Chart.StiChartArea" isKey="true">
+            <InterlacingHor Ref="9" type="Stimulsoft.Dashboard.Components.Chart.StiHorChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingHor>
+            <InterlacingVert Ref="10" type="Stimulsoft.Dashboard.Components.Chart.StiVertChartInterlacing" isKey="true">
+              <Color>Transparent</Color>
+            </InterlacingVert>
+            <XAxis Ref="11" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxis" isKey="true">
+              <Labels Ref="12" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+                <Color>Transparent</Color>
+                <Font>Arial,8</Font>
+              </Labels>
+              <Range Ref="13" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisRange" isKey="true" />
+              <Title Ref="14" type="Stimulsoft.Dashboard.Components.Chart.StiXChartAxisTitle" isKey="true">
+                <Color>Transparent</Color>
+                <Font>Arial,12,Bold</Font>
+                <Visible>False</Visible>
+              </Title>
+            </XAxis>
+            <YAxis Ref="15" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxis" isKey="true">
+              <Labels Ref="16" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisLabels" isKey="true">
+                <Color>Transparent</Color>
+                <Font>Arial,8</Font>
+              </Labels>
+              <Range Ref="17" type="Stimulsoft.Dashboard.Components.Chart.StiChartAxisRange" isKey="true" />
+              <Title Ref="18" type="Stimulsoft.Dashboard.Components.Chart.StiYChartAxisTitle" isKey="true">
+                <Color>Transparent</Color>
+                <Font>Arial,12,Bold</Font>
+                <Visible>False</Visible>
+              </Title>
+            </YAxis>
+          </Area>
+          <Arguments isList="true" count="1">
+            <Item6 Ref="19" type="Stimulsoft.Dashboard.Components.Chart.StiArgumentChartMeter" isKey="true">
+              <Expression>Statistics.Year</Expression>
+              <Key>788df293ba7e400f889b95fc7ea69ed6</Key>
+              <Label>Year</Label>
+            </Item6>
+          </Arguments>
+          <BackColor>Transparent</BackColor>
+          <ChartConditions isList="true" count="0" />
+          <ClientRectangle>660,40,540,560</ClientRectangle>
+          <CloseValues isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <DataFilters isList="true" count="0" />
+          <EndValues isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Group>1</Group>
+          <Guid>ca4ed2b2ac724733b63f4da1100cdbd6</Guid>
+          <HighValues isList="true" count="0" />
+          <Labels Ref="20" type="Stimulsoft.Dashboard.Components.Chart.StiChartLabels" isKey="true">
+            <Font>Arial,8</Font>
+            <ForeColor>Transparent</ForeColor>
+          </Labels>
+          <Legend Ref="21" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegend" isKey="true">
+            <HorAlignment>Center</HorAlignment>
+            <Labels Ref="22" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendLabels" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,8</Font>
+            </Labels>
+            <Title Ref="23" type="Stimulsoft.Dashboard.Components.Chart.StiChartLegendTitle" isKey="true">
+              <Color>Transparent</Color>
+              <Font>Arial,12,Bold</Font>
+            </Title>
+          </Legend>
+          <LowValues isList="true" count="0" />
+          <ManuallyEnteredChartMeter Ref="24" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+            <Key>722dee09f48b459885e8c7691b53298a</Key>
+          </ManuallyEnteredChartMeter>
+          <Margin>3,3,3,3</Margin>
+          <Marker Ref="25" type="Stimulsoft.Dashboard.Components.Chart.StiChartMarker" isKey="true">
+            <Visible>True</Visible>
+          </Marker>
+          <Name>Chart1</Name>
+          <NegativeSeriesColors />
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <ParetoSeriesColors />
+          <RoundValues>True</RoundValues>
+          <SeriesColors />
+          <Title Ref="26" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Chart</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TopN Ref="27" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <TrendLines isList="true" count="0" />
+          <UserFilters isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <UserViewStates isList="true" count="0" />
+          <ValueFormat Ref="28" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>0</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>DecimalDigits, CurrencySymbol, Abbreviation</State>
+          </ValueFormat>
+          <Values isList="true" count="3">
+            <Item7 Ref="29" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Sum([Statistics.Cement Consumption])</Expression>
+              <Key>a3a1f302d6c34416b6e8305d45b8e149</Key>
+              <Label>Cement Consumption </Label>
+              <SeriesType>Spline</SeriesType>
+              <ShowNulls>Gap</ShowNulls>
+              <ShowZeros>Gap</ShowZeros>
+            </Item7>
+            <Item8 Ref="30" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Sum([Statistics.Metal Construction Component])</Expression>
+              <Key>4011fc5b497d45e4ac9f58af3c240210</Key>
+              <Label>Metal Construction Component </Label>
+              <SeriesType>Spline</SeriesType>
+              <ShowNulls>Gap</ShowNulls>
+              <ShowZeros>Gap</ShowZeros>
+            </Item8>
+            <Item9 Ref="31" type="Stimulsoft.Dashboard.Components.Chart.StiValueChartMeter" isKey="true">
+              <Expression>Sum([Statistics.Construction Machine])</Expression>
+              <Key>737f7c626abe4501967ad046b3e2a7d8</Key>
+              <Label>Construction Machine </Label>
+              <SeriesType>Spline</SeriesType>
+              <ShowNulls>Gap</ShowNulls>
+              <ShowZeros>Gap</ShowZeros>
+            </Item9>
+          </Values>
+          <Weights isList="true" count="0" />
+        </Chart1>
+        <Indicator1 Ref="32" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>0,280,160,240</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,40,220,300</ClientRectangle>
+          <DashboardInteraction Ref="33" type="Stimulsoft.Dashboard.Interactions.StiIndicatorDashboardInteraction" isKey="true">
+            <DrillDownParameters isList="true" count="0" />
+            <ShowFullScreenButton>False</ShowFullScreenButton>
+            <ShowSaveButton>False</ShowSaveButton>
+          </DashboardInteraction>
+          <DataFilters isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>3340872a3c33413eab20ce580348d90d</Guid>
+          <IconRangeMode>Percentage</IconRangeMode>
+          <IconRanges isList="true" count="0" />
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Series Ref="34" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
+            <Expression>Statistics.Year</Expression>
+            <Key>3e45f9a021a34a968c496dcc76ebe78d</Key>
+            <Label>Year</Label>
+          </Series>
+          <Target Ref="35" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
+            <Expression>Sum([Statistics.Metal Construction Component Growth])</Expression>
+            <Key>4dfc88f3822744619bd99185de2b68f6</Key>
+            <Label>Metal Construction Component Growth</Label>
+          </Target>
+          <TargetFormat Ref="36" type="PercentageFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <PositivePattern>1</PositivePattern>
+            <Symbol>%</Symbol>
+          </TargetFormat>
+          <TextFormat Ref="37" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>CurrencySymbol, Abbreviation</State>
+          </TextFormat>
+          <Title Ref="38" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,13.875,Bold,Point,False,0</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Metal Construction Component</Text>
+          </Title>
+          <TopN Ref="39" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="1">
+            <Item11 Ref="40" type="Stimulsoft.Data.Engine.StiDataSortRule" isKey="true">
+              <Key>3e45f9a021a34a968c496dcc76ebe78d</Key>
+            </Item11>
+          </UserSorts>
+          <Value Ref="41" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Sum([Statistics.Metal Construction Component])</Expression>
+            <Key>1019e90a6ccf4fd6a264afcb4e802dc7</Key>
+            <Label>Metal Construction Component</Label>
+          </Value>
+        </Indicator1>
+        <Indicator3 Ref="42" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>160,280,160,240</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>220,40,220,300</ClientRectangle>
+          <DashboardInteraction Ref="43" type="Stimulsoft.Dashboard.Interactions.StiIndicatorDashboardInteraction" isKey="true">
+            <DrillDownParameters isList="true" count="0" />
+            <ShowFullScreenButton>False</ShowFullScreenButton>
+            <ShowSaveButton>False</ShowSaveButton>
+          </DashboardInteraction>
+          <DataFilters isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>2b685631b1824dccaaecad26b36ed5e9</Guid>
+          <IconRangeMode>Percentage</IconRangeMode>
+          <IconRanges isList="true" count="0" />
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator3</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Series Ref="44" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
+            <Expression>Statistics.Year</Expression>
+            <Key>3e45f9a021a34a968c496dcc76ebe78d</Key>
+            <Label>Year</Label>
+          </Series>
+          <Target Ref="45" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
+            <Expression>Sum([Statistics.Construction Machine Growth])</Expression>
+            <Key>7925fbae0c3642c1b7ce916a46242cf5</Key>
+            <Label>Construction Machine Growth</Label>
+          </Target>
+          <TargetFormat Ref="46" type="PercentageFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <PositivePattern>1</PositivePattern>
+            <Symbol>%</Symbol>
+          </TargetFormat>
+          <TextFormat Ref="47" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>CurrencySymbol, Abbreviation</State>
+          </TextFormat>
+          <Title Ref="48" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,13.875,Bold,Point,False,0</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Constructon Machine</Text>
+          </Title>
+          <TopN Ref="49" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="50" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Sum([Statistics.Construction Machine])</Expression>
+            <Key>5b03e38e95644d20af804fccc5991c12</Key>
+            <Label>Construction Machine</Label>
+          </Value>
+        </Indicator3>
+        <Indicator2 Ref="51" type="Stimulsoft.Dashboard.Components.Indicator.StiIndicatorElement" isKey="true">
+          <AltClientRectangle>320,280,160,240</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>440,40,220,300</ClientRectangle>
+          <DashboardInteraction Ref="52" type="Stimulsoft.Dashboard.Interactions.StiIndicatorDashboardInteraction" isKey="true">
+            <DrillDownParameters isList="true" count="0" />
+            <ShowFullScreenButton>False</ShowFullScreenButton>
+            <ShowSaveButton>False</ShowSaveButton>
+          </DashboardInteraction>
+          <DataFilters isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Arial,13</Font>
+          <ForeColor>Transparent</ForeColor>
+          <GlyphColor>Transparent</GlyphColor>
+          <Guid>4b98dfa26bbb4a97bf28b94f4a53d259</Guid>
+          <IconRangeMode>Percentage</IconRangeMode>
+          <IconRanges isList="true" count="0" />
+          <IconSet>Rating</IconSet>
+          <IndicatorConditions isList="true" count="0" />
+          <Margin>3,3,3,3</Margin>
+          <Name>Indicator2</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Series Ref="53" type="Stimulsoft.Dashboard.Components.Indicator.StiSeriesIndicatorMeter" isKey="true">
+            <Expression>Statistics.Year</Expression>
+            <Key>3e45f9a021a34a968c496dcc76ebe78d</Key>
+            <Label>Year</Label>
+          </Series>
+          <Target Ref="54" type="Stimulsoft.Dashboard.Components.Indicator.StiTargetIndicatorMeter" isKey="true">
+            <Expression>Sum([Statistics.Cement Consumption Growth])</Expression>
+            <Key>56a945156ac74139a3aa549d0ec04b39</Key>
+            <Label>Cement Consumption Growth</Label>
+          </Target>
+          <TargetFormat Ref="55" type="PercentageFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>1</NegativePattern>
+            <PositivePattern>1</PositivePattern>
+            <Symbol>%</Symbol>
+          </TargetFormat>
+          <TextFormat Ref="56" type="CurrencyFormat" isKey="true">
+            <DecimalDigits>2</DecimalDigits>
+            <GroupSeparator>,</GroupSeparator>
+            <NegativePattern>0</NegativePattern>
+            <PositivePattern>0</PositivePattern>
+            <State>CurrencySymbol, Abbreviation</State>
+          </TextFormat>
+          <Title Ref="57" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,13.875,Bold,Point,False,0</Font>
+            <ForeColor>Transparent</ForeColor>
+            <HorAlignment>Center</HorAlignment>
+            <Text>Cement Consumption</Text>
+          </Title>
+          <TopN Ref="58" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+          <Value Ref="59" type="Stimulsoft.Dashboard.Components.Indicator.StiValueIndicatorMeter" isKey="true">
+            <Expression>Sum([Statistics.Cement Consumption])</Expression>
+            <Key>6d8dcba23cf64a1b858a4ae26cc1d46c</Key>
+            <Label>Cement Consumption</Label>
+          </Value>
+        </Indicator2>
+        <Table1 Ref="60" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
+          <AltClientRectangle>0,520,480,280</AltClientRectangle>
+          <AltTitleVisible>False</AltTitleVisible>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>0,340,660,260</ClientRectangle>
+          <Columns isList="true" count="4">
+            <Item15 Ref="61" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+              <DashboardInteraction Ref="62" type="Stimulsoft.Dashboard.Interactions.StiTableColumnDashboardInteraction" isKey="true">
+                <DrillDownParameters isList="true" count="0" />
+                <OnClick>ApplyFilter</OnClick>
+              </DashboardInteraction>
+              <Expression>Statistics.Year</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <Key>561d8c6da43b4f0884eaa534b395dee0</Key>
+              <Label>Year</Label>
+              <Size Ref="63" type="Stimulsoft.Report.Dashboard.StiTableColumnSize" isKey="true" />
+            </Item15>
+            <Item16 Ref="64" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+              <DashboardInteraction Ref="65" type="Stimulsoft.Dashboard.Interactions.StiTableColumnDashboardInteraction" isKey="true">
+                <DrillDownParameters isList="true" count="0" />
+                <OnClick>ApplyFilter</OnClick>
+              </DashboardInteraction>
+              <Expression>Sum([Statistics.Metal Construction Component])</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Key>66bd9c5473984137a2429ab268a39466</Key>
+              <Label>Metal Construction Component</Label>
+              <ShowTotalSummary>True</ShowTotalSummary>
+              <TextFormat Ref="66" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+                <State>DecimalDigits, CurrencySymbol</State>
+              </TextFormat>
+            </Item16>
+            <Item17 Ref="67" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+              <DashboardInteraction Ref="68" type="Stimulsoft.Dashboard.Interactions.StiTableColumnDashboardInteraction" isKey="true">
+                <DrillDownParameters isList="true" count="0" />
+                <OnClick>ApplyFilter</OnClick>
+              </DashboardInteraction>
+              <Expression>Sum([Statistics.Construction Machine])</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Key>de966a9436794cc5a3568bd118169ba8</Key>
+              <Label>Construction Machine</Label>
+              <ShowTotalSummary>True</ShowTotalSummary>
+              <TextFormat Ref="69" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+                <State>DecimalDigits, CurrencySymbol</State>
+              </TextFormat>
+            </Item17>
+            <Item18 Ref="70" type="Stimulsoft.Dashboard.Components.Table.StiMeasureColumn" isKey="true">
+              <DashboardInteraction Ref="71" type="Stimulsoft.Dashboard.Interactions.StiTableColumnDashboardInteraction" isKey="true">
+                <DrillDownParameters isList="true" count="0" />
+                <OnClick>ApplyFilter</OnClick>
+              </DashboardInteraction>
+              <Expression>Sum([Statistics.Cement Consumption])</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <HorAlignment>Right</HorAlignment>
+              <Key>e16dcf6acb2c48bab242b0c1f65f12aa</Key>
+              <Label>Cement Consumption</Label>
+              <ShowTotalSummary>True</ShowTotalSummary>
+              <TextFormat Ref="72" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>0</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+                <State>DecimalDigits, CurrencySymbol</State>
+              </TextFormat>
+            </Item18>
+          </Columns>
+          <DashboardInteraction Ref="73" type="Stimulsoft.Dashboard.Interactions.StiTableDashboardInteraction" isKey="true">
+            <AllowUserFiltering>True</AllowUserFiltering>
+            <DrillDownFiltered>False</DrillDownFiltered>
+            <DrillDownParameters isList="true" count="0" />
+            <FullRowSelect>True</FullRowSelect>
+          </DashboardInteraction>
+          <DataFilters isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <FooterFont>Arial,10</FooterFont>
+          <FooterForeColor>Transparent</FooterForeColor>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>9efde2fd19a844db8f2778775a9fe5af</Guid>
+          <HeaderFont>Arial,10</HeaderFont>
+          <HeaderForeColor>Transparent</HeaderForeColor>
+          <Margin>3,3,3,3</Margin>
+          <Name>Table1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <SizeMode>Fit</SizeMode>
+          <TableConditions isList="true" count="0" />
+          <Title Ref="74" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Table</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserFilters isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+        </Table1>
+      </Components>
+      <DashboardWatermark Ref="75" type="Stimulsoft.Base.Drawing.StiAdvancedWatermark" isKey="true">
+        <TextColor>Gray</TextColor>
+        <TextFont>Arial,36</TextFont>
+        <WeaveMajorColor>119, 119, 119, 119</WeaveMajorColor>
+        <WeaveMinorColor>85, 119, 119, 119</WeaveMinorColor>
+      </DashboardWatermark>
+      <Expressions isList="true" count="0" />
+      <Guid>0c3de6e826744d69828a48ca82c43b79</Guid>
+      <Name>Dashboard1</Name>
+      <Report isRef="0" />
+      <Style>Green</Style>
+    </Dashboard1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>DashboardManufactureInChina</ReportAlias>
+  <ReportAuthor>Stimulsoft</ReportAuthor>
+  <ReportChanged>11/13/2023 7:14:59 PM</ReportChanged>
+  <ReportCreated>7/21/2020 3:25:28 PM</ReportCreated>
+  <ReportFile>D:\Stimulsoft\Stimulsoft.Files.Dashboards\SamplesStorage\WebDemoDashboards\8.Real-life Dashboards\DashboardManufactureInChina.mrt</ReportFile>
+  <ReportGuid>5b24acdea06d42889d0962d69f0c6513</ReportGuid>
+  <ReportIcon>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</ReportIcon>
+  <ReportImage>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</ReportImage>
+  <ReportName>DashboardManufactureInChina</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2023.4.3.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Manufacture_In_China : Stimulsoft.Report.StiReport
+    {
+        public Manufacture_In_China()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

@@ -4,9 +4,9 @@
     <RootNamespace>Using_the_Dashboard_Theme_on_the_Website</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Dashboards.Web.NetCore" Version="2026.1.7" />
+    <Folder Include="Dashboards\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Dashboards\" />
+    <PackageReference Include="Stimulsoft.Dashboards.Web" Version="2026.2.1" />
   </ItemGroup>
 </Project>

@@ -4,7 +4,7 @@
     <RootNamespace>Web_Demo</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Dashboards.Web" Version="2026.2.1" />
+    <PackageReference Include="Stimulsoft.Dashboards.Web" Version="2026.2.3" />
     <PackageReference Include="Stimulsoft.Data.OData" Version="2026.2.1" />
   </ItemGroup>
   <ItemGroup>

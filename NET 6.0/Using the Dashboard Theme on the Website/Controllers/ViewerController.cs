@@ -13,7 +13,7 @@ namespace Using_the_Dashboard_Theme_on_the_Website.Controllers
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
@@ -31,7 +31,7 @@ namespace Using_the_Dashboard_Theme_on_the_Website.Controllers
 
             return View();
         }
-        
+
         public IActionResult GetReport(string id = "DashboardChristmas")
         {
             // Create the dashboard object

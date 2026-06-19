@@ -17,15 +17,15 @@ namespace Show_Dashboard_in_the_Viewer.Controllers
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
-        
+
         public ViewController(IWebHostEnvironment environment)
         {
             this.environment = environment;
         }
-        
+
         public IActionResult Dashboards()
         {
             var dashboardFiles = Directory.GetFiles($"{environment.ContentRootPath}/Dashboards", "*.mrt");
